@@ -1,0 +1,481 @@
+{
+  "base": {
+    "getDimName": {
+      "0": "Thế giới chính",
+      "1": "Địa ngục",
+      "2": "The End",
+      "unknown": "Không gian khác"
+    }
+  },
+  "ll": {
+    "main": {
+      "checkRunningBDS": {
+        "detected": "Đã phát hiện ra sự tồn tại của một trình chạy BDS khác với cùng một đường dẫn!",
+        "tip": "Điều này có thể khiến cổng mạng và thế giới bị chiếm",
+        "ask": "Bạn có muốn kết thúc trình chạy với PID {} không? (y=Có, n=Không, e=Thoát khỏi)"
+      },
+      "fixAllowList": {
+        "removeEmptyAllowlist": "allowlist.json trống! Đang xóa...",
+        "checkManually": "Cả allowlist.json và whitelist.json đều tồn tại và không trống. Vui lòng kiểm tra lại chúng",
+        "renamed": "Đã đổi tên whitelist.json thành allowlist.json"
+      },
+      "warning": {
+        "betaVersion": "Hiện đang sử dụng phiên bản thử nghiệm (beta).",
+        "productionEnv": "VUI LÒNG KHÔNG SỬ DỤNG TRONG MÔI TRƯỜNG SẢN XUẤT!",
+        "protocolVersionNotMatch": {
+          "1": "Phiên bản giao thức không khớp, phiên bản mục tiêu: {}, phiên bản hiện tại: {}.",
+          "2": "Điều này rất có thể sẽ làm hỏng máy chủ, vui lòng sử dụng LiteLoader phù hợp với phiên bản BDS!"
+        },
+        "inDebugMode": "Hiện đang ở chế độ nhà phát triển!"
+      },
+      "bstats": {
+        "enabled": "bStats đã được bật, bạn có thể chỉnh sửa plugins/bStats/config.json để tắt nó"
+      },
+      "unpackResources": {
+        "begin": "Giải nén tài nguyên thời gian LiteLoaderBDS. Xin hãy kiên nhẫn chờ đợi...",
+        "end": "Giải nén thành công."
+      }
+    },
+    "antiAbnormalItem": {
+      "detected": "Người chơi ({}) lỗi dữ liệu vật phẩm!",
+      "itemInfo": "Vật phẩm: {}"
+    },
+    "cmd": {
+      "tpdim": {
+        "success": "Dịch chuyển đối tượng {} đến {} ({:2f}, {:2f}, {:2f})",
+        "error": {
+          "noActorTeleported": "Không có đối tượng nào được dịch chuyển",
+          "noActorSpecified": "Không có đối tượng nào được chỉ định"
+        },
+        "invalidDimid": "ID không gian không hợp lệ: {}"
+      },
+      "listPlugin": {
+        "overview": "Danh sách plugin [{}]",
+        "tip": "* Send command \"ll list <Tên plugin>\" for more information"
+      },
+      "pluginInfo": {
+        "title": "Plugin <{}>",
+        "error": {
+          "pluginNotFound": "Không tìm thấy plugin <{}>!"
+        }
+      },
+      "version": {
+        "msg": "Bedrock Dedicated Server {}\n- với LiteLoaderBDS {}\n- Giao thức mạng: {}"
+      },
+      "help": {
+        "msg": "[Giới thiệu]\nLiteLoaderBDS là một trình tải plugin không chính thức để phát triển mod cho Bedrock Dedicated Server.\nNó cung cấp một kho API khổng lồ, một hệ thống sự kiện mạnh mẽ và rất nhiều giao diện tiện ích được đóng gói.\n[Github]\n--> https://github.com/LiteLDev/LiteLoaderBDS <--\nChào mừng bạn đến với dự án github của chúng tôi để biết thêm thông tin ~"
+      },
+      "loadPlugin": {
+        "success": "Đã tải plugin <{}>.",
+        "fail": "Không tải được plugin {}"
+      },
+      "unloadPlugin": {
+        "success": "Đã dỡ plugin <{}>.",
+        "fail": "Không dỡ được plugin <{}>"
+      },
+      "reloadPlugin": {
+        "success": "Đã tải lại plugin <{}>.",
+        "fail": "Không tải lại được plugin <{}>"
+      },
+      "reloadAllPlugins": {
+        "success": "{} plugin đã được tải lại thành công.",
+        "fail": "Không tải lại được bất kỳ plugin nào"
+      },
+      "settings": {
+        "set": {
+          "success": "Thay đổi cài đặt {} sang {} thành công."
+        },
+        "get": {
+          "success": "Nhận cài đặt {} thành công. Giá trị: "
+        },
+        "delete": {
+          "success": "Xoá cài đặt {} thành công.",
+          "error": {
+            "emptyKey": "JsonPointer không được để trống!"
+          }
+        },
+        "reload": {
+          "success": "Cài đặt đã được tải lại thành công."
+        },
+        "save": {
+          "success": "Lưu cài đặt thành công."
+        },
+        "list": {
+          "success": "Danh sách cài đặt:"
+        }
+      },
+      "error": {
+        "noPathSpecified": "Bạn phải cung cấp đường dẫn hợp lệ của plugin LiteLoader!",
+        "noNameSpecified": "Bạn phải cung cấp tên hợp lệ cho plugin LiteLoader!"
+      }
+    },
+    "config": {
+      "creating": "Không tìm thấy tệp cấu hình LL <{}>. Đang tạo tệp cấu hình...",
+      "warning": {
+        "configOutdated": "Tệp cấu hình LL <{}> đã lỗi thời."
+      },
+      "updating": "Đang cập nhật tệp cấu hình..."
+    },
+    "crashLogger": {
+      "existsingDebuggerDetected": "Đã phát hiện trình gỡ lỗi hiện có. CrashLogger có sẵn sẽ không hoạt động.",
+      "wineDetected": "Đã phát hiện môi trường cho Wine. CrashLogger có sẵn sẽ không hoạt động.",
+      "error": {
+        "cannotCreateDaemonProcess": "Không thể tạo trình chạy CrashLogger Daemon!"
+      },
+      "warning": {
+        "crashLoggerDisabled": {
+          "1": "CrashLogger có sẵn đã không được bật vì cấu hình đã vô hiệu hóa nó.",
+          "2": "Sẽ không có ghi chép các sự cố khi ngoại lệ không được xử lý xảy ra,",
+          "3": "điều này khiến cho việc tìm ra lý do của sự cố và nguồn gốc của sự cố gần như không thể.",
+          "4": "Chúng tôi thực sự khuyên bạn nên bật nó để đảm bảo sự ổn định của máy chủ"
+        },
+        "conflicts": {
+          "1": "Builtin CrashLogger không được bật vì plugin <{}> xung đột với nó",
+          "2": "Sẽ không có nhật ký sự cố khi ngoại lệ được xử lý xảy ra",
+          "3": "điều này gần như làm cho việc tìm ra nguyên nhân và nguồn gốc của sự cố trở nên khó khăn gần như là không thể.",
+          "4": "Vì CrashLogger là một thành phần quan trọng đảm bảo sự ổn định của máy chủ",
+          "5": "Chúng tôi khuyên bạn nên suy nghĩ kỹ trước khi sử dụng plugin <{}>"
+        }
+      },
+      "init": {
+        "fail": {
+          "msg": "CrashLogger không khởi động được!",
+          "tip": "Sẽ không có nhật ký sự cố khi ngoại lệ được xử lý xảy ra."
+        }
+      }
+    },
+    "addonsHelper": {
+      "error": {
+        "addonConfigNotFound": "Không tìm thấy config Addon!",
+        "addonFileNotFound": "Không tìm thấy tệp Addon \"{}\"!",
+        "addonNotFound": "Addon <{}> không tìm thấy!",
+        "outOfRange": "Index Addon {} nằm ngoài phạm vi",
+        "unsupportedFileType": "Tìm thấy file không được hỗ trợ!",
+        "parsingEnabledAddonsList": "Lỗi khi phân tích cú pháp danh sách Addon đã bật",
+        "noAddonInstalled": "Không có Addon nào được cài đặt.",
+        "installationAborted": "Tiến trình cài đặt đã bị hủy bỏ!"
+      },
+      "displayError": "Lỗi: {}",
+      "removeAddonFromList": {
+        "fail": "Không xóa được addon <{}> khỏi tệp config!",
+        "success": "Không xóa được addon <{}> khỏi tệp config."
+      },
+      "addAddonToList": {
+        "invalidList": "Tệp danh sách Addon không hợp lệ {}, sao lưu vào {} và đặt lại về mặc định",
+        "fail": "Không thể chèn Addon {} vào {}!",
+        "success": "Đã thêm Addon <{}> vào config."
+      },
+      "install": {
+        "installing": "Đang cài đặt Addon <{}>...",
+        "error": {
+          "failToUncompress": {
+            "msg": "Không thể giải nén Addon {}!",
+            "exitCode": "Mã thoát: {}",
+            "programOutput": "Đầu ra thiết bị"
+          }
+        }
+      },
+      "uninstall": {
+        "success": "Đã gỡ cài đặt Addon <{}>."
+      },
+      "autoInstall": {
+        "tip": {
+          "dirCreated": "Đã tạo thư mục. Bạn có thể di chuyển các tệp Addon đã nén vào {} để cài đặt vào lần khởi chạy tiếp theo."
+        },
+        "working": "{} tìm thấy (các) tiện ích mới để cài đặt. Đang làm việc...",
+        "installed": "Tiện ích {} đã được cài đặt.",
+        "installedCount": "{} (các) tiện ích đã được cài đặt."
+      },
+      "cmd": {
+        "output": {
+          "list": {
+            "overview": "Addons: Đã tải addon(s):"
+          }
+        }
+      }
+    },
+    "loader": {
+      "loadScriptEngine": {
+        "error": {
+          "versionNotMatch": "Phiên bản tệp <{}> của Script Engine cho {} không khớp với phiên bản LiteLoader <{}>"
+        },
+        "success": "* Đã tải ScriptEngine cho {}."
+      },
+      "loadDotNetEngine": {
+        "error": {
+          "versionNotMatch": "Phiên bản tệp <{}> của LiteLoader.NET không khớp với phiên bản LiteLoader <{}>"
+        },
+        "success": "* .NET Engine được tải."
+      },
+      "loadMain": {
+        "loadingPlugins": "Đang tải plugin trực tiếp...",
+        "loadedShellLink": "Plugin ShellLinked <{} => {}> đã tải",
+        "loadedPlugin": "Đã tải plugin chạy trực tiếp <{name}>",
+        "done": "Đã tải {} plugin chạy trực tiếp.",
+        "start": "Đang tải plugin chạy trực tiếp..."
+      },
+      "initNodeJsDirectories": {
+        "created": "Không tìm thấy thư mục để chạy Node.js, tạo."
+      },
+      "initPythonDirectories": {
+        "created": "Không tìm thấy thư mục thời gian chạy Python, đã tạo một cái mới."
+      }
+    },
+    "notice": {
+      "newForum": "Diễn đàn mới của chúng tôi đang hoạt động! -> {}",
+      "license": "LiteLoader được cấp phép theo {}",
+      "translateText": "Giúp chúng tôi dịch và cải thiện văn bản trong LL -> {}"
+    },
+    "pluginManager": {
+      "error": {
+        "invalidFileType": "Tệp plugin không hợp lệ {} trong {}",
+        "noValidPluginFound": "Không tìm thấy plugin hợp lệ nào tại {}!",
+        "failToRegisterPlugin": "Không thể xác minh plugin {}!",
+        "hasBeenRegistered": "Plugin có tên {} đã được đăng ký",
+        "failToLoadPlugin": "Không tải được plugin {}!",
+        "pluginNotFound": "Không tìm thấy plugin <{}>"
+      },
+      "warning": {
+        "unloadDllNotFinished": "Dừng tải chức năng của plugin dll chưa xong.",
+        "reloadDllNotFinished": "Tải lại chức năng của plugin dll chưa xong."
+      },
+      "reloadPlugin": {
+        "fail": "Không thể tải lại plugin {}!"
+      }
+    },
+    "unzipNodeModules": {
+      "fail": "Không thể giải nén node_modules.tar"
+    },
+    "unzipPythonModules": {
+      "fail": "Không thể giải nén python-env.zip"
+    }
+  },
+  "llse": {
+    "init": {
+      "llMoney": {
+        "notFound": "Không tìm thấy LLMoney.dll, ScriptEngine Economy System sẽ không hoạt động"
+      }
+    },
+    "api": {
+      "ll": {
+        "require": {
+          "success": " - Plugin được yêu cầu tải thành công. Tải thành công: ",
+          "fail": " - Plugin được yêu cầu tải không thành công",
+          "download": {
+            "success": " - Đã tải thành công yêu cầu! Đường dẫn: ",
+            "fail": " - Yêu cầu tải xuống plugin không thành công! Mã số: "
+          }
+        }
+      }
+    },
+    "apiHelp": {
+      "parseJson": {
+        "fail": "Lỗi phân tích cú pháp JSON"
+      }
+    },
+    "loader": {
+      "loadDepends": {
+        "success": "Phụ thuộc {} đã được tải.",
+        "fail": "Không thể tải phụ thuộc {}"
+      },
+      "loadMain": {
+        "start": "Đang tải {type} plugin...",
+        "done": "{count} {type} plugin đã được tải.",
+        "nodejs": {
+          "installPack": {
+            "fail": "Không thể cài đặt gói plugin {}, vui lòng kiểm tra tệp package.json của bạn!",
+            "start": "Đã tìm thấy gói plugin Node.js \"{path}\"! Hãy thử cài đặt..."
+          },
+          "ignored": "Không tìm thấy tệp package.json trong thư mục {path}, đã bỏ qua."
+        },
+        "loadedPlugin": "Đã tải {type} plugin <{name}>.",
+        "installPluginPack": {
+          "done": "Đã cài đặt gói plugin {count} {type}."
+        },
+        "python": {
+          "ignored": "Không tìm thấy tệp pyproject.toml trong thư mục {path}, đã bỏ qua.",
+          "installPack": {
+            "start": "Đã tìm thấy gói plugin Python \"{path}\"! Đang thử cài đặt...",
+            "fail": "Không thể cài đặt gói plugin {}, vui lòng kiểm tra các tệp nguồn!"
+          }
+        }
+      },
+      "nodejs": {
+        "executeNpmInstall": {
+          "success": "Npm kết thúc thành công.",
+          "start": "Đang thực thi \"npm install\" cho plugin {name}...",
+          "fail": "Xảy ra lỗi. Mã thoát: {code}"
+        },
+        "register": {
+          "fail": "Không thể giúp plugin {name} được đăng ký!"
+        }
+      },
+      "python": {
+        "executePipInstall": {
+          "start": "Đang thực thi \"pip install\" cho plugin {name}...",
+          "success": "Pip kết thúc thành công.",
+          "fail": "Xảy ra lỗi. Mã thoát: {code}"
+        }
+      }
+    }
+  },
+  "permapi": {
+    "data": {
+      "process": {
+        "fail": "Không thể xử lý tệp dữ liệu: {}"
+      },
+      "read": {
+        "fail": "Không thể đọc dữ liệu tệp ở {}"
+      },
+      "save": {
+        "fail": "Không thể lưu tệp dữ liệu: {}"
+      }
+    },
+    "cmd": {
+      "error": {
+        "invalidCommand": "Lệnh không hợp lệ. Nhập '/help perm' để nhận trợ giúp.",
+        "internal": "Lỗi bên trong. Vui lòng thử lại sau.",
+        "roleAlreadyExists": "Vai trò đã tồn tại.",
+        "permissionAlreadyExists": "Quyền đã tồn tại.",
+        "invalidPermissionName": "Tên quyền không hợp lệ.",
+        "roleNotFound": "Không tìm thấy vai trò này.",
+        "permissionNotFound": "Không tìm thấy quyền.",
+        "playerNotFound": "Không tìm thấy người chơi.",
+        "modifyMembersOfEveryone": "Vai trò là một vai trò tất cả mọi người. Bạn không thể sửa đổi các thành viên của nó.",
+        "jsonParsingError": "Lỗi phân tích cú pháp JSON: {}",
+        "missingArgument": "Thiếu cú pháp: {}",
+        "permissionDenied": "Bạn không có quyền sử dụng lệnh này."
+      },
+      "output": {
+        "create": {
+          "role": {
+            "success": "Đã tạo vai trò."
+          },
+          "perm": {
+            "success": "Đã tạo quyền."
+          }
+        },
+        "delete": {
+          "role": {
+            "success": "Đã xóa vai trò."
+          },
+          "perm": {
+            "success": "Đã xóa quyền."
+          }
+        },
+        "list": {
+          "role": {
+            "none": "Không có vai trò để hiển thị.",
+            "header": "§b§lDanh sách vai trò:",
+            "isMember": "§r(§eThành viênr§r)"
+          },
+          "perm": {
+            "none": "Không có quyền hiển thị.",
+            "header": "§b§lDanh sách quyền:"
+          }
+        },
+        "view": {
+          "player": {
+            "yourStatus": "§b§lTrạng thái quyền hiện tại của bạn:",
+            "status": "§b§l{}'s trạng thái cho phép hiện tại:",
+            "rolesTitle": "- §eVai trò:",
+            "permissionsTitle": "- §eQuyền:"
+          },
+          "role": {
+            "header": "§b§lDanh sách vai trò:",
+            "info": {
+              "name": "+ §eTên§r: {roleName}",
+              "displayName": "+ §eTên hiển thị§r: {}",
+              "priority": "+ §eSự ưu tiên§r: {}",
+              "membersNone": "+ §eCác thành viên§r: None",
+              "members": "+ §eCác thành viên§r:",
+              "permissionsNone": "+ §eQuyền§r: None",
+              "permissions": "+ §eQuyền§r:"
+            },
+            "note": {
+              "admin": "※ {}§r là một vai trò đặc biệt. Tất cả các quyền sẽ được bật theo mặc định.",
+              "everyone": "※ {}§r là một vai trò đặc biệt. Tất cả người chơi là thành viên của vai trò này."
+            },
+            "enabled": "§a(Đã bật)§r",
+            "disabled": "§a(Đã tắt)§r",
+            "enabledWithExtra": "§b(Được kích hoạt với các hạn chế bổ sung)§r"
+          },
+          "perm": {
+            "header": "§b§lThông tin cấp phép:",
+            "info": {
+              "name": "+ §eTên§r: {permissionName}",
+              "desc": "+ §eMô tả§r: {}"
+            }
+          }
+        },
+        "update": {
+          "role": {
+            "member": {
+              "add": {
+                "success": "Thành viên {name}§r({xuid}) đã được thêm vào vai trò {roleDisplayName}§r."
+              },
+              "remove": {
+                "success": "Đã xóa thành viên {name}§r({xuid}) khỏi Vai trò {roleDisplayName}§r."
+              }
+            },
+            "perm": {
+              "add": {
+                "success": "Đã thêm quyền {name}§r vào Vai trò {roleDisplayName}§r."
+              },
+              "remove": {
+                "success": "Quyền {name}§r đã bị xóa khỏi Vai trò {roleDisplayName}§r."
+              },
+              "set": {
+                "enabled": "§abật§r",
+                "disabled": "§ctắt§r",
+                "success": "Quyền {name}§r của Vai trò {roleDisplayName}§r đã được {enable}."
+              }
+            },
+            "priority": {
+              "set": {
+                "success": "Mức độ ưu tiên của Vai trò {roleDisplayName}§r đã được đặt thành {priority}."
+              }
+            },
+            "displayName": {
+              "set": {
+                "success": "Tên hiển thị của Vai trò <{roleName}§r> đã được đặt thành {displayName}."
+              }
+            }
+          },
+          "player": {
+            "role": {
+              "add": {
+                "success": "Người chơi {name}§r({xuid}) đã được thêm vào Vai trò {roleDisplayName}§r."
+              },
+              "remove": {
+                "success": "Người chơi {name}§r({xuid}) đã bị xóa khỏi Vai trò {roleDisplayName}§r."
+              }
+            }
+          }
+        },
+        "noDesc": "[Không có mô tả]",
+        "permissionNameExamples": "Ví dụ về tên quyền: 'Namespace:PermissionName', 'a:b:c:d_e_f.g'"
+      }
+    }
+  },
+  "llseapi": {
+    "require": {
+      "fail": "Không tìm thấy plugin cần thiết cho {0}.",
+      "success": "Plugin có tên {0} cần thiết cho {1} đã được tải.",
+      "network": {
+        "fail": "Đã xảy ra lỗi khi tải plugin cần thiết cho {0}, mã http: {1}"
+      },
+      "download": {
+        "success": "Tải plugin cần thiết cho {0} thành công, đường dẫn {1}."
+      }
+    }
+  },
+  "config": {
+    "metadata": {
+      "empty": "Config metadata is empty!"
+    },
+    "save": {
+      "fail": "Không thể lưu(hay tạo) tệp cấu hình!"
+    }
+  }
+}

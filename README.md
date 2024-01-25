@@ -1,7 +1,19 @@
-# LeviLang
+# levilamina-loc
 
-LeviLamina's language files
+Language packs of LeviLamina
 
-## Contribution
+## Install
 
-If you want to contribute this repository, please move to [Crowdin](https://crowdin.com/project/liteloaderbds)
+If you install LeviLamina via lip, these packs will be installed automatically as dependencies. If you would like to install them independently, run:
+
+```sh
+lip install github.com/LiteLDev/levilamina-loc
+```
+
+## Contributing
+
+To contribute to this repository, go to [Crowdin](https://crowdin.com/project/liteloaderbds)
+
+## License
+
+MIT © LiteLDev

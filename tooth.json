@@ -1,13 +1,13 @@
 {
     "format_version": 2,
-    "tooth": "github.com/LiteLDev/LeviLang",
+    "tooth": "github.com/LiteLDev/levilamina-loc",
     "version": "0.1.0",
     "info": {
-        "name": "LeviLang",
-        "description": "LeviLamina's language files",
+        "name": "levilamina-loc",
+        "description": "Language packs of LeviLamina",
         "author": "LiteLDev",
         "tags": [
-            "ll"
+            "levilamina"
         ]
     },
     "files": {

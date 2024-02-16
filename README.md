@@ -12,7 +12,7 @@ lip install github.com/LiteLDev/levilamina-loc
 
 ## Contributing
 
-To contribute to this repository, go to [Crowdin](https://crowdin.com/project/liteloaderbds)
+To contribute to this repository, go to [Crowdin](https://translate.liteldev.com/)
 
 ## License
 

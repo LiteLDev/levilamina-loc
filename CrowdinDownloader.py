@@ -5,7 +5,7 @@ from crowdin_api import CrowdinClient
 import requests
 from zipfile import ZipFile
 
-PROJECT_ID = "526672"
+PROJECT_ID = "648704"
 OUTPUT_DIR = "./lang/"
 
 

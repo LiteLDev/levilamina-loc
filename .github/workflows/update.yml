@@ -3,11 +3,7 @@
 
 name: Update translation
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: workflow_dispatch
 
 permissions:
   contents: write
@@ -29,7 +25,6 @@ jobs:
         pip install crowdin-api-client
     - name: Run Downloader
       run: |
-        rm -r lang
         python CrowdinDownloader.py ${{secrets.CROWDIN_API}}
     - name: Setup GIT token
       uses: fregante/setup-git-token@v1

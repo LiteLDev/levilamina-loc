@@ -17,7 +17,7 @@
     "Detected the existence of another BDS process with the same path!": "检测到存在另一个具有相同路径的 BDS 进程！",
     "This may cause the network port and the level to be occupied": "这可能会导致网络端口和世界被占用",
     "Do you want to terminate the process with PID {}?  (y=Yes, n=No, e=Exit)": "您想终止 PID 为 {} 的进程吗？(y=是，n=否，e=退出)",
-    "LeviLamina is a free software licensed under {}": "LeviLamina是一个由 {} 授权的自由软件",
+    "LeviLamina is a free software licensed under {}": "LeviLamina 是一个由 {} 授权的自由软件",
     "Help us translate & improve text -> {}": "帮助我们翻译和改进文本 -> {}",
     "Protocol version not match, target version: {}, current version: {}": "协议版本不匹配，目标版本：{}，当前版本：{}",
     "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "这很可能会使服务器崩溃，请使用 LeviLamina 匹配的BDS版本！",

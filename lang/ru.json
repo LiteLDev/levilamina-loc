@@ -1,253 +1,43 @@
 {
-  "ll": {
-    "main": {
-      "checkRunningBDS": {
-        "detected": "Обнаружена другая сессия BDS с тем же путём!",
-        "tip": "Это может привести к захвату порта сервера и уровня",
-        "ask": "Вы действительно хотите завершить процесс с помощью PID {}? (y=Да, n=Нет)"
-      },
-      "fixAllowList": {
-        "removeEmptyAllowlist": "allowlist.json пустой! Удаление...",
-        "checkManually": "Оба allowlist.json и whitelist.json существуют и они не пустые. Просим вас проверить их вручную",
-        "renamed": "Файл whitelist.json переименован в allowlist.json"
-      },
-      "warning": {
-        "betaVersion": "На данный момент вы используете Beta-версию.",
-        "productionEnv": "НЕ ИСПОЛЬЗУЕТЕ В ПРОДАКШЕНЕ!",
-        "protocolVersionNotMatch": {
-          "1": "Версия протокола не совпадает, целевая версия: {}, текущая версия: {}.",
-          "2": "Скорее всего, это приведет к сбою сервера, пожалуйста, используйте LiteLoader, который соответствует версии BDS!"
-        },
-        "inDebugMode": "На данный момент вы в режиме разработчика!"
-      },
-      "bstats": {
-        "enabled": "bStats включен, вы можете отредактировать файл plugins/bStats/config.json, чтобы отключить его"
-      },
-      "unpackResources": {
-        "begin": "Распаковка ресурсов среды выполнения LiteLoaderBDS. Пожалуйста, подождите...",
-        "end": "Распаковано."
-      }
-    },
-    "antiAbnormalItem": {
-      "detected": "Ошибка при чтении данных об предмете игрока ({})!",
-      "itemInfo": "Предмет: {}"
-    },
-    "cmd": {
-      "tpdim": {
-        "success": "Телепортирован {} к(в) {} ({:2f}, {:2f}, {:2f})",
-        "error": {
-          "noActorTeleported": "Объект не был телепортирован",
-          "noActorSpecified": "Существо не определено"
-        },
-        "invalidDimid": "Невалидный идентификатор измерения: {}"
-      },
-      "listPlugin": {
-        "overview": "Список плагинов [{}]",
-        "tip": "* Напишите в командной строке \"ll list <Plugin Name>\" для получения дополнительной информации"
-      },
-      "pluginInfo": {
-        "title": "Плагин <{}>",
-        "error": {
-          "pluginNotFound": "Плагин <{}> не найден!"
-        }
-      },
-      "version": {
-        "msg": "Удаленный сервер для Minecraft Bedrock {}\n- с LiteLoaderBDS: {}\n- Версия протокола: {}"
-      },
-      "help": {
-        "msg": "[Introduction]\nLiteLoaderBDS — неофициальный загрузщик плагинов для модификации Bedrock Dedicated Server.\nОн предоставляет огромное количество инструментария для разработчиков, мощная система событий и множество упакованных служебных интерфейсов.\n[Github]\n--> https://github.com/LiteLDev/LiteLoaderBDS <--\nДля получения дополнительной информации, приглашаем вас посетить наш проект на GitHub ~"
-      },
-      "loadPlugin": {
-        "success": "Плагин <{}> успешно загружен.",
-        "fail": "Не удалось загрузить плагин {}"
-      },
-      "unloadPlugin": {
-        "success": "Плагин <{}> выключен.",
-        "fail": "Не удалось выгрузить плагин <{}>"
-      },
-      "reloadPlugin": {
-        "success": "Плагин <{}> перезагружен.",
-        "fail": "Не удалось перезагрузить плагин <{}>"
-      },
-      "reloadAllPlugins": {
-        "success": "{} плагин(-ов) были успешно перезагружены.",
-        "fail": "Не удалось перезагрузить плагин"
-      },
-      "settings": {
-        "set": {
-          "success": "Настройки {} установлены в {} успешно."
-        },
-        "get": {
-          "success": "Настройка {} успешно получена. Содержание: "
-        },
-        "delete": {
-          "success": "Настройки успешно удалены.",
-          "error": {
-            "emptyKey": "JsonPointer не может быть пустым!"
-          }
-        },
-        "reload": {
-          "success": "Настройки успешно перезагружены."
-        },
-        "save": {
-          "success": "Настройки успешно сохранены."
-        },
-        "list": {
-          "success": "Список доступных параметров:"
-        }
-      },
-      "error": {
-        "noPathSpecified": "Вы должны указать правильный путь плагина LiteLoader!",
-        "noNameSpecified": "Вы должны дать правильное имя плагину LiteLoader!"
-      }
-    },
-    "config": {
-      "creating": "Файл конфигурации LL <{}> не найден. Создаю файл конфигурации...",
-      "warning": {
-        "configOutdated": "Файл конфигурации LL <{}> устарел."
-      },
-      "updating": "Обновление файла конфигурации..."
-    },
-    "crashLogger": {
-      "existsingDebuggerDetected": "Обнаружен другой отладчик. Встроенный CrashLogger не будет работать.",
-      "wineDetected": "Вы запускаете LiteLoaderBDS через Wine. Встроенный CrashLogger не будет работать.",
-      "error": {
-        "cannotCreateDaemonProcess": "Не удалось создать процесс CrashLoger!"
-      },
-      "warning": {
-        "crashLoggerDisabled": {
-          "1": "Встроенный CrashLogger не работает, потому что он отключен в файле конфигурации.",
-          "2": "При возникновении необработанного исключения журнал сбоев не будет",
-          "3": "это делает практически невозможным выявление причины и источника сбоя.",
-          "4": "Мы строго рекомендуем вам включить его, чтобы обеспечить стабильность сервера"
-        },
-        "conflicts": {
-          "1": "Встроенный CrashLogger не включен, потому что плагин <{}> конфликтует с ним",
-          "2": "При возникновении необработанного исключения журнал сбоев не будет",
-          "3": "это делает практически невозможным выявление причины и источника сбоя.",
-          "4": "Поскольку CrashLogger является важным компонентом, который обеспечивает стабильность сервера",
-          "5": "Мы рекомендуем вам несколько раз подумать об использовании плагина <{}>"
-        }
-      },
-      "init": {
-        "fail": {
-          "msg": "Не удалось запустить встроенный CrashLogger!",
-          "tip": "При возникновении необработанного исключения журнал сбоев не будет."
-        }
-      }
-    },
-    "addonsHelper": {
-      "error": {
-        "addonConfigNotFound": "Файл конфигурации аддонов не найдена!",
-        "addonFileNotFound": "Файл аддона \"{}\" не найден!",
-        "addonNotFound": "Аддон <{}> не найден!",
-        "outOfRange": "Индекс аддона {} вне предела",
-        "unsupportedFileType": "Обнаружен неподдерживаемый тип файла!",
-        "parsingEnabledAddonsList": "Ошибка при чтении списка включенных аддонов",
-        "noAddonInstalled": "Аддон не был установлен.",
-        "installationAborted": "Процесс установки прерван!"
-      },
-      "displayError": "Ошибка: {}",
-      "removeAddonFromList": {
-        "fail": "Не удалось удалить аддон <{}> из файла конфигурации!",
-        "success": "Аддон <{}> удалён из файла конфигурации."
-      },
-      "addAddonToList": {
-        "invalidList": "Невалидный файл списка аддонов {}, была проведена резервная копия на {} и сброшена по умолчанию",
-        "fail": "Не удалось добавить аддон {} в список {}!",
-        "success": "Аддон <{}> добавлен в файл конфигурации."
-      },
-      "install": {
-        "installing": "Установка аддона <{}>...",
-        "error": {
-          "failToUncompress": {
-            "msg": "Не удалось распаковать аддон {}!",
-            "exitCode": "Код возврата: {}",
-            "programOutput": "Вывод программы: {}"
-          }
-        }
-      },
-      "uninstall": {
-        "success": "Аддон <{}> удалён."
-      },
-      "autoInstall": {
-        "tip": {
-          "dirCreated": "Директория создана. Вы можете перемещать аддоны в {}, чтобы они затем были установлены при следующем запуске."
-        },
-        "working": "{} новых аддон(-ов) были найдены для установки. Подождите...",
-        "installed": "Аддон {} был успешно установлен.",
-        "installedCount": "{} аддон(-ов) были установлены."
-      },
-      "cmd": {
-        "output": {
-          "list": {
-            "overview": "Аддоны: {} аддон(-ов) установлен(-о):"
-          }
-        }
-      }
-    },
-    "loader": {
-      "loadScriptEngine": {
-        "error": {
-          "versionNotMatch": "Версия файла <{}> скриптового движка для {} не соответствует версии LiteLoader <{}>"
-        },
-        "success": "* Скриптовый движок для {} загружен"
-      },
-      "loadDotNetEngine": {
-        "error": {
-          "versionNotMatch": "Версия файла <{}> движка .NET не соответствует версии LiteLoader <{}>"
-        },
-        "success": "* Движок .NET загружен"
-      },
-      "loadMain": {
-        "loadingPlugins": "Загрузка нативных плагинов...",
-        "loadedShellLink": "Плагин с ShellLinked <{} => {}> загружен",
-        "loadedPlugin": "Нативный плагин <{name}> загружен",
-        "done": "{} плагин(ов/а) успешно загружен(ы).",
-        "start": "Загрузка нативных плагинов..."
-      },
-      "initNodeJsDirectories": {
-        "created": "Директория библиотек NodeJS не найдена, создаю."
-      },
-      "initPythonDirectories": {
-        "created": "Директория библиотек Python не найдена, создаю."
-      }
-    },
-    "notice": {
-      "newForum": "У нас работает новый форум -> {}",
-      "license": "LiteLoader распространяется под лицензией {}",
-      "translateText": "Помогите перевести & улучшить перевод в LL -> {}"
-    },
-    "pluginManager": {
-      "error": {
-        "invalidFileType": "Неверный тип файла плагина {} в {}",
-        "noValidPluginFound": "Некорректный плагин найден в {}!",
-        "failToRegisterPlugin": "Не удалось зарегистрировать плагин {}!",
-        "hasBeenRegistered": "Плагин с именем {} был зарегистрирован",
-        "failToLoadPlugin": "Не удалось загрузить плагин {}!",
-        "pluginNotFound": "Плагин <{}> не найден"
-      },
-      "warning": {
-        "unloadDllNotFinished": "Функция выгрузки плагинов DLL находится в разработке.",
-        "reloadDllNotFinished": "Функция перезагрузки плагинов DLL находится в разработке."
-      },
-      "reloadPlugin": {
-        "fail": "Не удалось перезагрузить плагин {}!"
-      }
-    },
-    "unzipNodeModules": {
-      "fail": "Не удалось распаковать архив: node_modules.tar"
-    },
-    "unzipPythonModules": {
-      "fail": "Не удалось распаковать python-env.zip"
-    }
-  },
-  "config": {
-    "metadata": {
-      "empty": "Config metadata is empty!"
-    },
-    "save": {
-      "fail": "Не удалось сохранить (создать) файл конфигурации!"
-    }
-  }
+    "crash the server": "вылететь сервер",
+    "Query memory status": "Состояние памяти запроса",
+    "Not an actor origin": "Не источник персонажа",
+    "fail to convert position between dimensions": "не преобразовать позицию между размерами",
+    "Teleported {} to {} {}": "Телепортировано {} на {} {}",
+    "No target": "No target",
+    "Query serverversion information": "Запрос информации о версии сервера",
+    "This server is running Bedrock Dedicated Server version {0} with §bLeviLamina-{1}§r.": "На этом сервере запущена версия Bedrock Dicated Server {0} с §bLeviLamina-{1}§r.",
+    "LeviConfig rewrite successfully": "LeviConfig успешно перезаписан",
+    "LeviConfig rewrite failed": "Не удалось перезаписать LeviConfig",
+    "LeviConfig load failed": "Ошибка загрузки LeviConfig",
+    "LeviConfig failed to save": "Не удалось сохранить LeviConfig",
+    "Debugger detected, CrashLogger will not be enabled": "Отладчик обнаружен, CrashLogger не будет включен",
+    "Couldn't Create CrashLogger Daemon Process": "Не удалось создать процесс демона CrashLogger",
+    "CrashLogger enabled successfully": "Журнал ошибок включен",
+    "Detected the existence of another BDS process with the same path!": "Обнаружен другой BDS процесс с таким же пути!",
+    "This may cause the network port and the level to be occupied": "Это может привести к захвату сетевого порта и уровня",
+    "Do you want to terminate the process with PID {}?  (y=Yes, n=No, e=Exit)": "Вы хотите завершить процесс с помощью PID {}? (y=Yes, n=No, e=Exit)",
+    "LeviLamina is a free software licensed under {}": "LeviLamina — это свободное программное обеспечение, лицензированное под {}",
+    "Help us translate & improve text -> {}": "Помогите нам перевести и улучшить текст -> {}",
+    "Protocol version not match, target version: {}, current version: {}": "Версия протокола не совпадает, целевая версия: {}, текущая версия: {}",
+    "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "Скорее всего, это приведет к сбою сервера, пожалуйста, используйте LeviLamina, которая соответствует версии BDS!",
+    "LeviLamina is running in DEBUG mode!": "LeviLamina запущена в режиме DEBUG!",
+    "Plugin name {} do not match folder {}": "Имя плагина {} не соответствует папке {}",
+    "Loading plugins...": "Загрузка плагинов...",
+    "Failed to create native plugin manager": "Не удалось создать встроенный менеджер плагинов",
+    "Failed to load manifest for {}": "Не удалось загрузить манифест для {}",
+    "Missing dependency {}": "Отсутствует зависимость {}",
+    "The dependencies of {} are missing, will not be loaded": "Отсутствуют зависимости {}, не будут загружены",
+    "{} conflicts with {}": "{} конфликтует с {}",
+    "The dependencies of {} are in conflict, will not be loaded": "Зависимости {} находятся в конфликте, не будут загружены",
+    "The dependencies of {} are in loops, will not be loaded": "Зависимости {} в циклах, не будут загружены",
+    "The dependencies of {} is not loaded, will not be loaded": "Зависимости {} не загружены, не будут загружены",
+    "{} loaded": "{} загружен",
+    "Failed to load {}": "Не удалось загрузить {}",
+    "{} plugin(s) loaded": "Загружено плагин(ов) {}",
+    "Failed to enable {}": "Не удалось включить {}",
+    "{} plugin(s) enabled in ({:.1f}s)": "Включен {} плагин(ов) ({:.1f}с)",
+    "Failed to load manifest {}": "Не удалось загрузить манифест {}",
+    "{} is still dependent on {}": "{} все еще зависит от {}",
+    "Dependency {} of {} is not enabled": "Зависимость {} из {} не включена"
 }

@@ -1,253 +1,43 @@
 {
-  "ll": {
-    "main": {
-      "checkRunningBDS": {
-        "detected": "检测到另一个具有相同路径的BDS进程！",
-        "tip": "这可能会导致网络端口和存档被占用",
-        "ask": "是否要终止PID为 {} 的进程？（y=是，n=否）"
-      },
-      "fixAllowList": {
-        "removeEmptyAllowlist": "allowlist.json为空！正在删除……",
-        "checkManually": "allowlist.json 和 whitelist.json 都存在并且不是空的。请手动检查",
-        "renamed": "已将whitelist.json重命名为allowlist.json"
-      },
-      "warning": {
-        "betaVersion": "目前正在使用测试版",
-        "productionEnv": "请勿在生产环境中使用！",
-        "protocolVersionNotMatch": {
-          "1": "协议版本不匹配，目标版本：{}，当前版本：{}。",
-          "2": "这很可能会使服务器崩溃，请使用与BDS版本匹配的LiteLoaderBDS！"
-        },
-        "inDebugMode": "当前处于开发者模式！"
-      },
-      "bstats": {
-        "enabled": "bStats已启用，你可以通过编辑 plugins/bStats/config.json 来禁用它"
-      },
-      "unpackResources": {
-        "begin": "正在解包LiteLoaderBDS运行时资源，请耐心等待...",
-        "end": "解包完毕。"
-      }
-    },
-    "antiAbnormalItem": {
-      "detected": "玩家 ({}) 的物品数据错误！",
-      "itemInfo": "物品: {}"
-    },
-    "cmd": {
-      "tpdim": {
-        "success": "已传送 {} 到 {} ({:2f}, {:2f}, {:2f})",
-        "error": {
-          "noActorTeleported": "没有实体被传送",
-          "noActorSpecified": "未指定实体"
-        },
-        "invalidDimid": "无效的维度ID：{}"
-      },
-      "listPlugin": {
-        "overview": "插件列表 [{}]",
-        "tip": "* 使用命令“ll list <Plugin Name>”来获取更多信息"
-      },
-      "pluginInfo": {
-        "title": "插件 <{}>",
-        "error": {
-          "pluginNotFound": "找不到插件 <{}>！"
-        }
-      },
-      "version": {
-        "msg": "基岩版专用服务器(BDS) {}\n- LiteLoaderBDS 版本：{}\n- 网络协议：{}"
-      },
-      "help": {
-        "msg": "[介绍]\nLiteLoaderBDS是一个非官方的插件加载器，为基岩专用服务器加载插件。\n它提供了大量API、强大的事件系统和大量打包的实用程序接口。\n[Github]\n-->https://github.com/LiteLDev/LiteLoaderBDS <--\n欢迎访问我们的github项目以获取更多信息~"
-      },
-      "loadPlugin": {
-        "success": "插件 <{}> 已加载",
-        "fail": "插件 {} 加载失败"
-      },
-      "unloadPlugin": {
-        "success": "<{}> 插件已卸载",
-        "fail": "卸载插件 <{}> 失败"
-      },
-      "reloadPlugin": {
-        "success": "插件 <{}> 已重载。",
-        "fail": "无法重载插件 <{}>"
-      },
-      "reloadAllPlugins": {
-        "success": "{} 插件已成功重新加载。",
-        "fail": "无法重新加载任何插件"
-      },
-      "settings": {
-        "set": {
-          "success": "成功将 {} 设置为 {} 。"
-        },
-        "get": {
-          "success": "设置读取 {} 成功。值： "
-        },
-        "delete": {
-          "success": "设置成功删除 {} 。",
-          "error": {
-            "emptyKey": "JsonPointer 不能为空！"
-          }
-        },
-        "reload": {
-          "success": "成功重新加载设置。"
-        },
-        "save": {
-          "success": "成功保存设置。"
-        },
-        "list": {
-          "success": "设置列表："
-        }
-      },
-      "error": {
-        "noPathSpecified": "您必须提供LiteLoader插件的有效路径！",
-        "noNameSpecified": "必须提供LiteLoaderBDS插件的有效名称!"
-      }
-    },
-    "config": {
-      "creating": "未找到LL配置文件<{}>。正在创建配置文件...",
-      "warning": {
-        "configOutdated": "LL配置文件 <{}> 已过时"
-      },
-      "updating": "正在更新配置文件..."
-    },
-    "crashLogger": {
-      "existsingDebuggerDetected": "检测到现有调试器，内置CrashLogger无法工作",
-      "wineDetected": "检测到当前处于Wine环境，内置CrashLogger无法工作",
-      "error": {
-        "cannotCreateDaemonProcess": "无法创建CrashLogger守护进程！"
-      },
-      "warning": {
-        "crashLoggerDisabled": {
-          "1": "未启用内置CrashLogger，因为配置中禁用了它",
-          "2": "发生未经处理的异常时，不会有崩溃日志，",
-          "3": "这使我们几乎不可能找到崩溃的原因和来源。",
-          "4": "我们强烈建议你启用它以保证服务器稳定性"
-        },
-        "conflicts": {
-          "1": "未启用内置CrashLogger，因为插件<{}>与其冲突",
-          "2": "发生未经处理的异常时，不会有崩溃日志，",
-          "3": "这使我们几乎不可能找到崩溃的原因和来源。",
-          "4": "因为CrashLogger是确保服务器稳定性的重要组件",
-          "5": "我们建议您仔细考虑是否使用插件 <{}>"
-        }
-      },
-      "init": {
-        "fail": {
-          "msg": "内置CrashLogger无法启动！",
-          "tip": "发生未经处理的异常时，不会有崩溃日志。"
-        }
-      }
-    },
-    "addonsHelper": {
-      "error": {
-        "addonConfigNotFound": "未找到addon配置文件",
-        "addonFileNotFound": "未找到addon文件 \"{}\"！",
-        "addonNotFound": "未找到addon <{}>！",
-        "outOfRange": "Addon索引 {} 超出范围",
-        "unsupportedFileType": "不支持的文件类型！",
-        "parsingEnabledAddonsList": "在解析已启用的addons列表时发生错误",
-        "noAddonInstalled": "没有addon被安装",
-        "installationAborted": "安装进程终止！"
-      },
-      "displayError": "错误: {}",
-      "removeAddonFromList": {
-        "fail": "从配置文件移除addon <{}> 失败！",
-        "success": "已将addon <{}> 从配置文件移除"
-      },
-      "addAddonToList": {
-        "invalidList": "无效的addon列表文件 {}，已备份到 {} 并重置为默认值",
-        "fail": "无法将 addon {} 插入到 {}！",
-        "success": "已将addon <{}> 添加到配置文件"
-      },
-      "install": {
-        "installing": "正在安装addon <{}>...",
-        "error": {
-          "failToUncompress": {
-            "msg": "解压addon {} 失败！",
-            "exitCode": "退出代码: {}",
-            "programOutput": "程序输出:\n{}"
-          }
-        }
-      },
-      "uninstall": {
-        "success": "Addon <{}> 已卸载。"
-      },
-      "autoInstall": {
-        "tip": {
-          "dirCreated": "目录已创建。你可以移动已压缩的addon文件到 {} 以在下次启动时安装"
-        },
-        "working": "{} 个新的要安装的addon(s)已被找到。处理中...",
-        "installed": "Addon {} 已被安装。",
-        "installedCount": "{} 个addon(s)已被安装"
-      },
-      "cmd": {
-        "output": {
-          "list": {
-            "overview": "Addons: {} 个addon(s)已安装:"
-          }
-        }
-      }
-    },
-    "loader": {
-      "loadScriptEngine": {
-        "error": {
-          "versionNotMatch": "<{}> 版本的 {} 脚本引擎 与 LiteLoaderBDS版本 <{}> 不匹配"
-        },
-        "success": "* {} 脚本引擎已加载"
-      },
-      "loadDotNetEngine": {
-        "error": {
-          "versionNotMatch": "LiteLoader.NET 的文件版本 <{}> 与 LiteLoaderBDS 版本不匹配 <{}>"
-        },
-        "success": "* .NET 引擎已加载"
-      },
-      "loadMain": {
-        "loadingPlugins": "加载原生插件...",
-        "loadedShellLink": "快捷方式插件 <{} => {}> 已加载",
-        "loadedPlugin": "原生插件 <{name}> 已加载",
-        "done": "已加载 {} 个原生插件",
-        "start": "加载原生插件..."
-      },
-      "initNodeJsDirectories": {
-        "created": "NodeJs运行库文件夹未找到，已自动创建"
-      },
-      "initPythonDirectories": {
-        "created": "Python运行库文件夹未找到，已自动创建"
-      }
-    },
-    "notice": {
-      "newForum": "我们的新论坛上线了啦! -> {}",
-      "license": "LiteLoader采用 {} 许可证开源",
-      "translateText": "帮助我们翻译&改进翻译 -> {}"
-    },
-    "pluginManager": {
-      "error": {
-        "invalidFileType": "无效的插件文件类型 {} 在 {} 中",
-        "noValidPluginFound": "在 {} 未找到有效的插件",
-        "failToRegisterPlugin": "注册插件 {} 失败",
-        "hasBeenRegistered": "一个名为 {} 的插件已被注册",
-        "failToLoadPlugin": "加载插件 {} 失败！",
-        "pluginNotFound": "未找到插件 <{}>"
-      },
-      "warning": {
-        "unloadDllNotFinished": "卸载dll插件的功能尚未完成。",
-        "reloadDllNotFinished": "重载dll插件的功能尚未完成。"
-      },
-      "reloadPlugin": {
-        "fail": "重载插件 {} 失败！"
-      }
-    },
-    "unzipNodeModules": {
-      "fail": "解压缩node_modules.tar失败"
-    },
-    "unzipPythonModules": {
-      "fail": "解压 python-env.zip 失败"
-    }
-  },
-  "config": {
-    "metadata": {
-      "empty": "配置元数据为空！"
-    },
-    "save": {
-      "fail": "保存（创建）配置文件失败！"
-    }
-  }
+    "crash the server": "崩溃服务器",
+    "Query memory status": "查询内存状态",
+    "Not an actor origin": "不是实体来源",
+    "fail to convert position between dimensions": "无法转换维度之间的位置",
+    "Teleported {} to {} {}": "已将 {} 传送到 {} {}",
+    "No target": "没有目标",
+    "Query serverversion information": "查询服务器版本信息",
+    "This server is running Bedrock Dedicated Server version {0} with §bLeviLamina-{1}§r.": "此服务器正在运行基岩版专用服务器版本 {0} 带有 §bLeviLamina-{1}§r",
+    "LeviConfig rewrite successfully": "LeviConfig 重写成功",
+    "LeviConfig rewrite failed": "LeviConfig 重写失败",
+    "LeviConfig load failed": "LeviConfig 加载失败",
+    "LeviConfig failed to save": "LeviConfig 保存失败",
+    "Debugger detected, CrashLogger will not be enabled": "检测到调试器，崩溃日志将不会启用",
+    "Couldn't Create CrashLogger Daemon Process": "无法创建崩溃日志守护进程",
+    "CrashLogger enabled successfully": "已成功启用崩溃日志记录",
+    "Detected the existence of another BDS process with the same path!": "检测到另一个具有相同路径的BDS进程存在！",
+    "This may cause the network port and the level to be occupied": "这可能会导致网络端口和世界被占用",
+    "Do you want to terminate the process with PID {}?  (y=Yes, n=No, e=Exit)": "您想要终止使用 PID {}的进程吗？(y=是，n=否，e=退出)",
+    "LeviLamina is a free software licensed under {}": "LeviLamina是一个由 {} 授权的自由软件",
+    "Help us translate & improve text -> {}": "帮助我们翻译并改进文本 -> {}",
+    "Protocol version not match, target version: {}, current version: {}": "协议版本不匹配，目标版本：{}，当前版本：{}",
+    "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "这很可能会使服务器崩溃，请使用 LeviLamina 匹配的BDS版本！",
+    "LeviLamina is running in DEBUG mode!": "LeviLamina正在以DEBUG模式运行！",
+    "Plugin name {} do not match folder {}": "插件名称 {} 与文件夹 {} 不匹配",
+    "Loading plugins...": "正在加载插件...",
+    "Failed to create native plugin manager": "创建原生插件管理器失败",
+    "Failed to load manifest for {}": "为 {} 加载清单文件失败",
+    "Missing dependency {}": "缺少依赖项 {}",
+    "The dependencies of {} are missing, will not be loaded": "{} 的依赖项缺失，不会加载",
+    "{} conflicts with {}": "{} 与 {} 冲突",
+    "The dependencies of {} are in conflict, will not be loaded": "{} 的依赖关系处于冲突中，将不会加载",
+    "The dependencies of {} are in loops, will not be loaded": "{} 的依赖关系在循环中，不会加载",
+    "The dependencies of {} is not loaded, will not be loaded": "{} 的依赖关系未加载，将不会加载",
+    "{} loaded": "{} 已加载",
+    "Failed to load {}": "加载 {} 失败",
+    "{} plugin(s) loaded": "{} 插件已加载",
+    "Failed to enable {}": "启用 {} 失败",
+    "{} plugin(s) enabled in ({:.1f}s)": "{} 插件已启用在 ({:.1f}秒)",
+    "Failed to load manifest {}": "加载清单 {} 失败",
+    "{} is still dependent on {}": "{} 仍然依赖于{}",
+    "Dependency {} of {} is not enabled": "{} 的 {} 依赖未启用"
 }

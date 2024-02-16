@@ -1,253 +1,43 @@
 {
-  "ll": {
-    "main": {
-      "checkRunningBDS": {
-        "detected": "Rilevata l'esistenza di un altro processo BDS con lo stesso percorso!",
-        "tip": "Ciò non permetterà l'uso della porta di rete e del mondo",
-        "ask": "Vuoi terminare il processo con PID {}? (y = Sì, n = No)"
-      },
-      "fixAllowList": {
-        "removeEmptyAllowlist": "allowlist.json è vuoto! Rimozione del file in corso...",
-        "checkManually": "Entrambi allowlist.json e whitelist.json esistono e non sono vuoti. Si prega di controllarli manualmente",
-        "renamed": "Rinominato whitelist.json a allowlist.json"
-      },
-      "warning": {
-        "betaVersion": "Attualmente utilizzando una versione beta.",
-        "productionEnv": "NON UTILIZZARE IN UN AMBIENTE DI PRODUZIONE!",
-        "protocolVersionNotMatch": {
-          "1": "La versione del protocollo non corrisponde, versione di destinazione: {}, versione corrente: {}.",
-          "2": "Questo probabilmente crasherà il server, si prega di usare la versione di LiteLoader che corrisponde alla versione del BDS!"
-        },
-        "inDebugMode": "Attualmente in modalità sviluppo!"
-      },
-      "bstats": {
-        "enabled": "bStats has been enabled, you can edit plugins/bStats/config.json to disable it"
-      },
-      "unpackResources": {
-        "begin": "Unpacking LiteLoaderBDS runtime resources. Please wait patiently...",
-        "end": "Unpacked."
-      }
-    },
-    "antiAbnormalItem": {
-      "detected": "Errore con i dati item del Player({})!",
-      "itemInfo": "Item: {}"
-    },
-    "cmd": {
-      "tpdim": {
-        "success": "Teletrasportato {} a {} ({:2f}, {:2f}, {:2f})",
-        "error": {
-          "noActorTeleported": "Nessun attore telegrasportato",
-          "noActorSpecified": "Nessun attore specificato"
-        },
-        "invalidDimid": "ID dimensione non valido: {}"
-      },
-      "listPlugin": {
-        "overview": "Lista dei plugin: [{}]",
-        "tip": "* Invia comando \"ll list <Plugin Name>\" per ulteriori informazioni"
-      },
-      "pluginInfo": {
-        "title": "Plugin <{}>",
-        "error": {
-          "pluginNotFound": "Il plugin <{}> non è stato trovato!"
-        }
-      },
-      "version": {
-        "msg": "Server dedicato Bedrock {}\n- con LiteLoaderBDS {}\n- Protocollo di rete: {}"
-      },
-      "help": {
-        "msg": "[Introduction]\nLiteLoaderBDS è un plugin loader non ufficiale per lo sviluppo di modding del server dedicato Bedrock.\nFornisce un enorme numero di API, un potente sistema di eventi e un sacco di interfacce di utilità imballate.\n[Github]\n--> https://github.com/LiteLDev/LiteLoaderBDS <--\nBenvenuto nel nostro progetto GitHub. Per ottenere maggiori informazioni ~"
-      },
-      "loadPlugin": {
-        "success": "Plugin <{}> caricato.",
-        "fail": "Impossibile caricare il plugin {}"
-      },
-      "unloadPlugin": {
-        "success": "Plugin <{}> caricato.",
-        "fail": "Impossibile caricare il plugin <{}>"
-      },
-      "reloadPlugin": {
-        "success": "Plugin <{}> ricaricato.",
-        "fail": "Impossibile caricare il plugin <{}>"
-      },
-      "reloadAllPlugins": {
-        "success": "{} plugins ricaricati con successo.",
-        "fail": "Impossibile ricaricare tutti i plugin"
-      },
-      "settings": {
-        "set": {
-          "success": "Impostazioni impostate {} su {} correttamente."
-        },
-        "get": {
-          "success": "Le impostazioni ottengono {} correttamente. Valore: "
-        },
-        "delete": {
-          "success": "Impostazione rimossa {} con successo.",
-          "error": {
-            "emptyKey": "JsonPointe non può essere vuoto!"
-          }
-        },
-        "reload": {
-          "success": "Impostazioni ricaricato con successo."
-        },
-        "save": {
-          "success": "Impostazioni salvate con successo."
-        },
-        "list": {
-          "success": "Lista impostazioni:"
-        }
-      },
-      "error": {
-        "noPathSpecified": "È necessario fornire un percorso valido di LiteLoader per un plugin!",
-        "noNameSpecified": "È necessario fornire un nome valido per un plugin!"
-      }
-    },
-    "config": {
-      "creating": "File di configurazione LL <{}> non trovato. Creazione del file di configurazione...",
-      "warning": {
-        "configOutdated": "Il file di configurazione LL <{}> è obsoleto."
-      },
-      "updating": "Aggiornamento del file di configurazione..."
-    },
-    "crashLogger": {
-      "existsingDebuggerDetected": "Debugger esistente rilevato. Il CrashLogger integrato non funzionerà.",
-      "wineDetected": "Ambiente Wine rilevato. Il CrashLogger integrato non funzionerà.",
-      "error": {
-        "cannotCreateDaemonProcess": "Impossibile creare il processo Daemon CrashLogger!"
-      },
-      "warning": {
-        "crashLoggerDisabled": {
-          "1": "Il CrashLogger integrato non è abilitato perché la configurazione l'ha disabilitato.",
-          "2": "Non ci sarà alcun crash log quando si verifica un'eccezione non gestita,",
-          "3": "che rende quasi impossibile scoprire il motivo del crash e la fonte del crash.",
-          "4": "Si consiglia vivamente di attivarlo per garantire la stabilità del server"
-        },
-        "conflicts": {
-          "1": "Il CrashLogger integrato non è abilitato perché il plugin <{}> va in conflitto con esso",
-          "2": "Non ci sarà alcun crash log quando si verifica un'eccezione non gestita,",
-          "3": "che rende quasi impossibile scoprire il motivo del crash e la fonte del crash.",
-          "4": "Poiché CrashLogger è un componente importante che garantisce la stabilità del server",
-          "5": "Ti consigliamo di pensare due volte all'utilizzo del plugin <{}>"
-        }
-      },
-      "init": {
-        "fail": {
-          "msg": "Avvio del CrashLogger integrato non riuscito!",
-          "tip": "Non ci sarà alcun crash log quando si verifica un'eccezione non gestita."
-        }
-      }
-    },
-    "addonsHelper": {
-      "error": {
-        "addonConfigNotFound": "Configurazione delle estensioni non trovata!",
-        "addonFileNotFound": "File di estensione \"{}\" non trovato!",
-        "addonNotFound": "Estensione <{}> non trovata!",
-        "outOfRange": "Indice del'estensione {} fuori dall'intervallo consentito",
-        "unsupportedFileType": "Trovato un tipo di file non supportato!",
-        "parsingEnabledAddonsList": "Errore durante l'analisi dell'elenco di estensioni abilitate",
-        "noAddonInstalled": "Nessuna estensione è stata installata.",
-        "installationAborted": "Processo di installazione interrotto!"
-      },
-      "displayError": "Errore: {}",
-      "removeAddonFromList": {
-        "fail": "Impossibile rimuovere l'estensione <{}> dal file di configurazione!",
-        "success": "Rimossa l'estensione <{}> dal file di configurazione."
-      },
-      "addAddonToList": {
-        "invalidList": "File di lista di estensioni {} non valido, creato un backup a {} e reimpostata la configurazione predefinita",
-        "fail": "Impossibile inserire l'estensione {} in {}!",
-        "success": "Aggiunta l'estensione <{}> al file di configurazione."
-      },
-      "install": {
-        "installing": "Installando l'estensione <{}>...",
-        "error": {
-          "failToUncompress": {
-            "msg": "Impossibile estrarre l'estensione {}!",
-            "exitCode": "Codice di uscita: {}",
-            "programOutput": "Output del programma:\n{}"
-          }
-        }
-      },
-      "uninstall": {
-        "success": "Estensione <{}> disinstallata."
-      },
-      "autoInstall": {
-        "tip": {
-          "dirCreated": "Directory creata. È possibile spostare i file di estensione compressi su {} per essere installati al prossimo avvio."
-        },
-        "working": "{} nuove estensioni trovate da installare...",
-        "installed": "L'estensione {} è stata installata.",
-        "installedCount": "{} estensioni installate."
-      },
-      "cmd": {
-        "output": {
-          "list": {
-            "overview": "Estensioni: {} estensioni installate:"
-          }
-        }
-      }
-    },
-    "loader": {
-      "loadScriptEngine": {
-        "error": {
-          "versionNotMatch": "La nuova versione del file <{}> dello Script Engine per {} non corrisponde alla versione di LiteLoader <{}>"
-        },
-        "success": "* ScriptEngine per {} caricato"
-      },
-      "loadDotNetEngine": {
-        "error": {
-          "versionNotMatch": "La nuova versione del file <{}> di LiteLoader.NET non corrisponde alla versione di LiteLoader <{}>"
-        },
-        "success": "* Motore .NET caricato"
-      },
-      "loadMain": {
-        "loadingPlugins": "Caricamento dei plugin in corso...",
-        "loadedShellLink": "Plugin ShellLinked <{} => {}> caricato",
-        "loadedPlugin": "Plugin <{name}> caricato",
-        "done": "{} plugin caricati.",
-        "start": "Caricamento dei plugin nativi in corso..."
-      },
-      "initNodeJsDirectories": {
-        "created": "Cartella del runtime Node.js non trovata, creata una nuova cartella."
-      },
-      "initPythonDirectories": {
-        "created": "Python runtime directory no found, created."
-      }
-    },
-    "notice": {
-      "newForum": "Il nostro nuovo forum è aperto! -> {}",
-      "license": "LiteLoaderBDS è concesso in licenza sotto la licenza {}",
-      "translateText": "Aiutaci a tradurre e migliorare il testo in LL -> {}"
-    },
-    "pluginManager": {
-      "error": {
-        "invalidFileType": "Tipo di file plugin non valido {} in {}",
-        "noValidPluginFound": "Nessun plugin valido trovato su {}!",
-        "failToRegisterPlugin": "Impossibile registrare il plugin {}!",
-        "hasBeenRegistered": "Un plugin chiamato {} è stato registrato",
-        "failToLoadPlugin": "Impossibile caricare il plugin {}!",
-        "pluginNotFound": "Il plugin <{}> non è stato trovato"
-      },
-      "warning": {
-        "unloadDllNotFinished": "Il caricamento dei plugin DLL non è terminato.",
-        "reloadDllNotFinished": "Il caricamento dei plugins Dll non è terminato."
-      },
-      "reloadPlugin": {
-        "fail": "Impossibile ricaricare il plugin {}!"
-      }
-    },
-    "unzipNodeModules": {
-      "fail": "Impossibile decomprimere node_modules.tar"
-    },
-    "unzipPythonModules": {
-      "fail": "Failed to unzip python-env.zip"
-    }
-  },
-  "config": {
-    "metadata": {
-      "empty": "Config metadata is empty!"
-    },
-    "save": {
-      "fail": "Impossibile salvare(creare) il file di configurazione!"
-    }
-  }
+    "crash the server": "crash del server",
+    "Query memory status": "Stato memoria query",
+    "Not an actor origin": "Non è un'origine dell'attore",
+    "fail to convert position between dimensions": "impossibile convertire la posizione tra le dimensioni",
+    "Teleported {} to {} {}": "Teletrasportato {} a {} {}",
+    "No target": "No target",
+    "Query serverversion information": "Interroga informazioni sulla versione del server",
+    "This server is running Bedrock Dedicated Server version {0} with §bLeviLamina-{1}§r.": "Questo server sta eseguendo la versione {0} del server dedicato di Bedrock con §bLeviLamina-{1}§r.",
+    "LeviConfig rewrite successfully": "Riscrittura di LeviConfig riuscita",
+    "LeviConfig rewrite failed": "Riscrittura di LeviConfig non riuscita",
+    "LeviConfig load failed": "Caricamento LeviConfig fallito",
+    "LeviConfig failed to save": "Salvataggio di LeviConfig non riuscito",
+    "Debugger detected, CrashLogger will not be enabled": "Debug rilevato, CrashLogger non sarà abilitato",
+    "Couldn't Create CrashLogger Daemon Process": "Impossibile Creare Processo Demone CrashLogger",
+    "CrashLogger enabled successfully": "CrashLogger abilitato correttamente",
+    "Detected the existence of another BDS process with the same path!": "Rilevato l'esistenza di un altro processo BDS con lo stesso percorso!",
+    "This may cause the network port and the level to be occupied": "Questo può causare la porta di rete e il livello di essere occupato",
+    "Do you want to terminate the process with PID {}?  (y=Yes, n=No, e=Exit)": "Vuoi terminare il processo con PID {}? (y=Yes, n=No, e=Exit)",
+    "LeviLamina is a free software licensed under {}": "LeviLamina è un software libero rilasciato sotto {}",
+    "Help us translate & improve text -> {}": "Aiutaci a tradurre e migliorare il testo -> {}",
+    "Protocol version not match, target version: {}, current version: {}": "La versione del protocollo non corrisponde, la versione di destinazione: {}, la versione corrente: {}",
+    "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "Questo probabilmente bloccherà il server, si prega di utilizzare la LeviLamina che corrisponde alla versione BDS!",
+    "LeviLamina is running in DEBUG mode!": "LeviLamina è in esecuzione in modalità DEBUG!",
+    "Plugin name {} do not match folder {}": "Il nome del plugin {} non corrisponde alla cartella {}",
+    "Loading plugins...": "Caricamento plugin...",
+    "Failed to create native plugin manager": "Creazione del gestore plugin nativo non riuscita",
+    "Failed to load manifest for {}": "Impossibile caricare il manifest per {}",
+    "Missing dependency {}": "Dipendenza mancante {}",
+    "The dependencies of {} are missing, will not be loaded": "Le dipendenze di {} sono mancanti, non saranno caricate",
+    "{} conflicts with {}": "{} conflitti con {}",
+    "The dependencies of {} are in conflict, will not be loaded": "Le dipendenze di {} sono in conflitto, non saranno caricate",
+    "The dependencies of {} are in loops, will not be loaded": "Le dipendenze di {} sono in loop, non saranno caricate",
+    "The dependencies of {} is not loaded, will not be loaded": "Le dipendenze di {} non sono caricate, non saranno caricate",
+    "{} loaded": "{} caricato",
+    "Failed to load {}": "Impossibile caricare {}",
+    "{} plugin(s) loaded": "{} plugin(s) caricati",
+    "Failed to enable {}": "Impossibile abilitare {}",
+    "{} plugin(s) enabled in ({:.1f}s)": "{} plugin abilitati in ({:.1f}s)",
+    "Failed to load manifest {}": "Impossibile caricare il manifest {}",
+    "{} is still dependent on {}": "{} dipende ancora da {}",
+    "Dependency {} of {} is not enabled": "La dipendenza {} di {} non è abilitata"
 }

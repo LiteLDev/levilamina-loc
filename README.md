@@ -1,5 +1,6 @@
 # levilamina-loc
 
+[![Crowdin](https://badges.crowdin.net/levilamina/localized.svg)](https://crowdin.com/project/levilamina)  
 Language packs of LeviLamina
 
 ## Install

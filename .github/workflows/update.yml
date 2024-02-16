@@ -31,6 +31,8 @@ jobs:
       run: |
         rm -r lang
         python CrowdinDownloader.py ${{secrets.CROWDIN_API}}
+    - name: Setup GIT token
+      uses: fregante/setup-git-token@v1
     - name: Update repository
       run: |
         git add .

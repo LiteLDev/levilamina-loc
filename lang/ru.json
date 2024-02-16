@@ -39,5 +39,8 @@
     "{} plugin(s) enabled in ({:.1f}s)": "Включен {} плагин(ов) ({:.1f}с)",
     "Failed to load manifest {}": "Не удалось загрузить манифест {}",
     "{} is still dependent on {}": "{} все еще зависит от {}",
-    "Dependency {} of {} is not enabled": "Зависимость {} из {} не включена"
+    "Dependency {} of {} is not enabled": "Зависимость {} из {} не включена",
+    "Thanks to RhyMC(rhymc": {
+        "com) for the support": "Спасибо RhyMC(rhymc.com) за поддержку"
+    }
 }

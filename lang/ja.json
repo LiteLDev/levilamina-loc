@@ -39,8 +39,5 @@
     "{} plugin(s) enabled in ({:.1f}s)": "{} plugin(s) enabled in ({:.1f}s)",
     "Failed to load manifest {}": "マニフェスト{}の読み込みに失敗しました",
     "{} is still dependent on {}": "{}はまだ{}に依存しています",
-    "Dependency {} of {} is not enabled": "依存関係{}が有効になっていません",
-    "Thanks to RhyMC(rhymc": {
-        "com) for the support": "サポートしてくれた RhyMC(rhymc.com) に感謝します"
-    }
+    "Dependency {} of {} is not enabled": "依存関係{}が有効になっていません"
 }

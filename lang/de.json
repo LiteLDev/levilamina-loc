@@ -39,5 +39,11 @@
     "{} plugin(s) enabled in ({:.1f}s)": "{} Plugin(s) aktiviert in ({:.1f}s)",
     "Failed to load manifest {}": "Fehler beim Laden des Manifests {}",
     "{} is still dependent on {}": "{} ist noch abhängig von {}",
-    "Dependency {} of {} is not enabled": "Abhängigkeit {} von {} ist nicht aktiviert"
+    "Dependency {} of {} is not enabled": "Abhängigkeit {} von {} ist nicht aktiviert",
+    "LeviLamina's main command": "LeviLamina's main command",
+    "Load plugin {0} successfully": "Load plugin {0} successfully",
+    "Failed to load plugin {0}": "Failed to load plugin {0}",
+    "Plugin {0} not found": "Plugin {0} not found",
+    "Unload plugin {0} successfully": "Unload plugin {0} successfully",
+    "Failed to unload plugin {0}": "Failed to unload plugin {0}"
 }

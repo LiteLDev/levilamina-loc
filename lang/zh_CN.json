@@ -39,5 +39,11 @@
     "{} plugin(s) enabled in ({:.1f}s)": "{} 个插件在 ({:.1f}秒) 内启用",
     "Failed to load manifest {}": "加载清单 {} 失败",
     "{} is still dependent on {}": "{} 仍然依赖于 {}",
-    "Dependency {} of {} is not enabled": "{} 的依赖项 {} 未启用"
+    "Dependency {} of {} is not enabled": "{} 的依赖项 {} 未启用",
+    "LeviLamina's main command": "LeviLamina's main command",
+    "Load plugin {0} successfully": "Load plugin {0} successfully",
+    "Failed to load plugin {0}": "Failed to load plugin {0}",
+    "Plugin {0} not found": "Plugin {0} not found",
+    "Unload plugin {0} successfully": "Unload plugin {0} successfully",
+    "Failed to unload plugin {0}": "Failed to unload plugin {0}"
 }

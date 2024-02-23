@@ -45,5 +45,13 @@
     "Failed to load plugin {0}": "Failed to load plugin {0}",
     "Plugin {0} not found": "Plugin {0} not found",
     "Unload plugin {0} successfully": "Unload plugin {0} successfully",
-    "Failed to unload plugin {0}": "Failed to unload plugin {0}"
+    "Failed to unload plugin {0}": "Failed to unload plugin {0}",
+    "Reload plugin {0} successfully": "Reload plugin {0} successfully",
+    "Failed to reload plugin {0}": "Failed to reload plugin {0}",
+    "Enable plugin {0} successfully": "Enable plugin {0} successfully",
+    "Failed to enable plugin {0}": "Failed to enable plugin {0}",
+    "Disable plugin {0} successfully": "Disable plugin {0} successfully",
+    "Failed to disable plugin {0}": "Failed to disable plugin {0}",
+    "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}": "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}",
+    "There are {0} plugins: {1}": "There are {0} plugins: {1}"
 }

@@ -34,7 +34,7 @@
     "The dependencies of {} is not loaded, will not be loaded": "Dependencies ของ {} ไม่ได้โหลด จะไม่สามารถโหลดได้",
     "{} loaded": "โหลด {} แล้ว",
     "Failed to load {}": "ไม่สามารถโหลด {} ได้",
-    "{} plugin(s) loaded": "เปิดการทำงานปลั๊กอิน {} แล้ว",
+    "{} plugin(s) loaded": "โหลดปลั๊กอิน {} แล้ว",
     "Failed to enable {}": "ไม่สามารถเปิดการทำงาน {} ได้",
     "{} plugin(s) enabled in ({:.1f}s)": "{} ปลั๊กอิน เปิดการทำงานใน ({:.1f}s)",
     "Failed to load manifest {}": "ไม่สามารถโหลด manifest {} ได้",

@@ -52,6 +52,14 @@
     "Failed to enable plugin {0}": "Falha ao ativar o plugin {0}",
     "Disable plugin {0} successfully": "Plugin {0} desactivado com sucesso",
     "Failed to disable plugin {0}": "Falha ao desativar o plugin {0}",
-    "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}": "Nome: {0}\\nAutor: {1}\\nDescrição: {2}\\nTipo: {3}\\nVersão: {4}\\nentrada: {5}",
-    "There are {0} plugins: {1}": "Existem plugins {0} : {1}"
+    "There are {0} plugins: {1}": "Existem plugins {0} : {1}",
+    "Statistics has been enabled, you can disable statistics in configuration file": "As estatísticas foram ativadas, você pode desativar as estatísticas no arquivo de configuração.",
+    "Name: {0}": "Nome: {0}",
+    "Author: {0}": "Autor: {0}",
+    "Description: {0}": "Descrição: {0}",
+    "Type: {0}": "Tipo: {0}",
+    "Version: {0}": "Versão: {0}",
+    "Entry: {0}": "Entrada: {0}",
+    "Reactivate plugin {0} successfully": "Plugin {0} reativado com sucesso",
+    "Failed to reactivate plugin {0}": "Falha ao reativar o plugin {0}"
 }

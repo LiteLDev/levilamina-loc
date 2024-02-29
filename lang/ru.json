@@ -52,6 +52,14 @@
     "Failed to enable plugin {0}": "Не удалось включить плагин {0}",
     "Disable plugin {0} successfully": "Плагин {0} успешно отключён",
     "Failed to disable plugin {0}": "Не удалось отключить плагин {0}",
-    "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}": "Имя: {0}\\nАвтор: {1}\\nОписание: {2}\\nТип: {3}\\nВерсия: {4}\\nВход: {5}",
-    "There are {0} plugins: {1}": "Есть {0} плагины: {1}"
+    "There are {0} plugins: {1}": "Есть {0} плагины: {1}",
+    "Statistics has been enabled, you can disable statistics in configuration file": "Статистика включена, вы можете отключить статистику в конфигурационном файле",
+    "Name: {0}": "Имя: {0}",
+    "Author: {0}": "Автор: {0}",
+    "Description: {0}": "Описание: {0}",
+    "Type: {0}": "Тип: {0}",
+    "Version: {0}": "Версия: {0}",
+    "Entry: {0}": "Вход: {0}",
+    "Reactivate plugin {0} successfully": "Восстановление плагина {0} успешно завершено",
+    "Failed to reactivate plugin {0}": "Не удалось реактивировать плагин {0}"
 }

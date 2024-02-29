@@ -52,6 +52,14 @@
     "Failed to enable plugin {0}": "Failed to enable plugin {0}",
     "Disable plugin {0} successfully": "Disable plugin {0} successfully",
     "Failed to disable plugin {0}": "Failed to disable plugin {0}",
-    "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}": "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}",
-    "There are {0} plugins: {1}": "There are {0} plugins: {1}"
+    "There are {0} plugins: {1}": "There are {0} plugins: {1}",
+    "Statistics has been enabled, you can disable statistics in configuration file": "Statistics has been enabled, you can disable statistics in configuration file",
+    "Name: {0}": "Name: {0}",
+    "Author: {0}": "Author: {0}",
+    "Description: {0}": "Description: {0}",
+    "Type: {0}": "Type: {0}",
+    "Version: {0}": "Version: {0}",
+    "Entry: {0}": "Entry: {0}",
+    "Reactivate plugin {0} successfully": "Reactivate plugin {0} successfully",
+    "Failed to reactivate plugin {0}": "Failed to reactivate plugin {0}"
 }

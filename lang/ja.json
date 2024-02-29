@@ -52,6 +52,14 @@
     "Failed to enable plugin {0}": "プラグイン {0}の有効化に失敗しました",
     "Disable plugin {0} successfully": "プラグイン {0} を無効にしました",
     "Failed to disable plugin {0}": "プラグイン {0}の無効化に失敗しました",
-    "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}": "名前: {0}\\n著者: {1}\\n説明: {2}\\nタイプ: {3}\\nバージョン: {4}\\n項目: {5}",
-    "There are {0} plugins: {1}": "{0} プラグインがあります: {1}"
+    "There are {0} plugins: {1}": "{0} プラグインがあります: {1}",
+    "Statistics has been enabled, you can disable statistics in configuration file": "統計情報が有効になっています。設定ファイルの統計情報を無効にできます。",
+    "Name: {0}": "名前: {0}",
+    "Author: {0}": "作成者: {0}",
+    "Description: {0}": "説明： {0}",
+    "Type: {0}": "タイプ: {0}",
+    "Version: {0}": "バージョン： {0}",
+    "Entry: {0}": "エントリー: {0}",
+    "Reactivate plugin {0} successfully": "プラグイン {0} の再有効化に成功しました",
+    "Failed to reactivate plugin {0}": "プラグイン {0}の再アクティブ化に失敗しました"
 }

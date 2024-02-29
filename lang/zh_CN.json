@@ -52,6 +52,14 @@
     "Failed to enable plugin {0}": "启用插件 {0} 失败",
     "Disable plugin {0} successfully": "成功禁用插件 {0}",
     "Failed to disable plugin {0}": "未能禁用插件 {0}",
-    "Name: {0}\\nAuthor: {1}\\nDescription: {2}\\nType: {3}\\nVersion: {4}\\nEntry: {5}": "插件名： {0}\\n作者： {1}\\n描述： {2}\\n类型： {3}\\n版本： {4}\\n入口： {5}",
-    "There are {0} plugins: {1}": "服务器有 {0} 个插件： {1}"
+    "There are {0} plugins: {1}": "服务器有 {0} 个插件： {1}",
+    "Statistics has been enabled, you can disable statistics in configuration file": "统计已启用，您可以在配置文件中禁用统计",
+    "Name: {0}": "名称: {0}",
+    "Author: {0}": "作者: {0}",
+    "Description: {0}": "描述: {0}",
+    "Type: {0}": "类型: {0}",
+    "Version: {0}": "版本: {0}",
+    "Entry: {0}": "入口: {0}",
+    "Reactivate plugin {0} successfully": "重新启用插件 {0} 成功",
+    "Failed to reactivate plugin {0}": "无法重新启用插件 {0}"
 }

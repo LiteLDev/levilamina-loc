@@ -53,13 +53,13 @@
     "Disable plugin {0} successfully": "ปิดใช้งานปลั๊กอิน {0} เรียบร้อยแล้ว",
     "Failed to disable plugin {0}": "ไม่สามารถปิดการใช้งานปลั๊กอิน {0} ได้",
     "There are {0} plugins: {1}": "มี {0} ปลั๊กอิน: {1}",
-    "Statistics has been enabled, you can disable statistics in configuration file": "Statistics has been enabled, you can disable statistics in configuration file",
-    "Name: {0}": "Name: {0}",
-    "Author: {0}": "Author: {0}",
-    "Description: {0}": "Description: {0}",
-    "Type: {0}": "Type: {0}",
-    "Version: {0}": "Version: {0}",
-    "Entry: {0}": "Entry: {0}",
-    "Reactivate plugin {0} successfully": "Reactivate plugin {0} successfully",
-    "Failed to reactivate plugin {0}": "Failed to reactivate plugin {0}"
+    "Statistics has been enabled, you can disable statistics in configuration file": "ระบบเก็บสถิติได้เปิดทำงานแล้ว คุณสามารถปิดระบบสถิติได้ในไฟล์ config",
+    "Name: {0}": "ชื่อ: {0}",
+    "Author: {0}": "ผู้สร้าง: {0}",
+    "Description: {0}": "คำอธิบาย: {0}",
+    "Type: {0}": "ประเภท: {0}",
+    "Version: {0}": "เวอร์ชั่น: {0}",
+    "Entry: {0}": "นำเข้า: {0}",
+    "Reactivate plugin {0} successfully": "เปิดการทำงานปลั๊กอิน {0} อีกครั้ง เรียบร้อยแล้ว",
+    "Failed to reactivate plugin {0}": "ล้มเหลวในการเปิดการทำงานปลั๊กอิน {0} ได้อีกครั้ง"
 }

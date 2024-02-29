@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/LiteLDev/levilamina-loc",
-    "version": "0.1.5",
+    "version": "1.0.1",
     "info": {
         "name": "levilamina-loc",
         "description": "Language packs of LeviLamina",

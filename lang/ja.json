@@ -61,5 +61,21 @@
     "Version: {0}": "バージョン： {0}",
     "Entry: {0}": "エントリー: {0}",
     "Reactivate plugin {0} successfully": "プラグイン {0} の再有効化に成功しました",
-    "Failed to reactivate plugin {0}": "プラグイン {0}の再アクティブ化に失敗しました"
+    "Failed to reactivate plugin {0}": "プラグイン {0}の再アクティブ化に失敗しました",
+    "Enabling plugins": {
+        "": {
+            "": {
+                "": "プラグインを有効にしています..."
+            }
+        }
+    },
+    "Enabling {0} v{1}": "{0} v{1} を有効化",
+    "Disabling plugins": {
+        "": {
+            "": {
+                "": "プラグインを無効にしています..."
+            }
+        }
+    },
+    "Disabling {0} v{1}": "{0} v{1} を無効にしています"
 }

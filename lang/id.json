@@ -61,5 +61,21 @@
     "Version: {0}": "Version: {0}",
     "Entry: {0}": "Entry: {0}",
     "Reactivate plugin {0} successfully": "Reactivate plugin {0} successfully",
-    "Failed to reactivate plugin {0}": "Failed to reactivate plugin {0}"
+    "Failed to reactivate plugin {0}": "Failed to reactivate plugin {0}",
+    "Enabling plugins": {
+        "": {
+            "": {
+                "": "Enabling plugins..."
+            }
+        }
+    },
+    "Enabling {0} v{1}": "Enabling {0} v{1}",
+    "Disabling plugins": {
+        "": {
+            "": {
+                "": "Disabling plugins..."
+            }
+        }
+    },
+    "Disabling {0} v{1}": "Disabling {0} v{1}"
 }

@@ -61,5 +61,21 @@
     "Version: {0}": "版本: {0}",
     "Entry: {0}": "入口: {0}",
     "Reactivate plugin {0} successfully": "重新启用插件 {0} 成功",
-    "Failed to reactivate plugin {0}": "无法重新启用插件 {0}"
+    "Failed to reactivate plugin {0}": "无法重新启用插件 {0}",
+    "Enabling plugins": {
+        "": {
+            "": {
+                "": "正在启用插件..."
+            }
+        }
+    },
+    "Enabling {0} v{1}": "正在启用 {0} v{1}",
+    "Disabling plugins": {
+        "": {
+            "": {
+                "": "正在禁用插件..."
+            }
+        }
+    },
+    "Disabling {0} v{1}": "正在禁用 {0} v{1}"
 }

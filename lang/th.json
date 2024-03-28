@@ -61,5 +61,21 @@
     "Version: {0}": "เวอร์ชั่น: {0}",
     "Entry: {0}": "นำเข้า: {0}",
     "Reactivate plugin {0} successfully": "เปิดการทำงานปลั๊กอิน {0} อีกครั้ง เรียบร้อยแล้ว",
-    "Failed to reactivate plugin {0}": "ล้มเหลวในการเปิดการทำงานปลั๊กอิน {0} ได้อีกครั้ง"
+    "Failed to reactivate plugin {0}": "ล้มเหลวในการเปิดการทำงานปลั๊กอิน {0} ได้อีกครั้ง",
+    "Enabling plugins": {
+        "": {
+            "": {
+                "": "Enabling plugins..."
+            }
+        }
+    },
+    "Enabling {0} v{1}": "Enabling {0} v{1}",
+    "Disabling plugins": {
+        "": {
+            "": {
+                "": "Disabling plugins..."
+            }
+        }
+    },
+    "Disabling {0} v{1}": "Disabling {0} v{1}"
 }

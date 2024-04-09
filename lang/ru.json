@@ -1,10 +1,10 @@
 {
-    "crash the server": "вылететь сервер",
+    "crash the server": "сбой сервера",
     "Query memory status": "Состояние памяти запроса",
     "Not an actor origin": "Не источник персонажа",
     "fail to convert position between dimensions": "не преобразовать позицию между размерами",
-    "Teleported {} to {} {}": "Телепортировано {} на {} {}",
-    "No target": "No target",
+    "Teleported {} to {} {}": "Перемещён {} на {} {}",
+    "No target": "Нет цели",
     "Query serverversion information": "Запрос информации о версии сервера",
     "This server is running Bedrock Dedicated Server version {0} with §bLeviLamina-{1}§r.": "На этом сервере запущена версия Bedrock Dicated Server {0} с §bLeviLamina-{1}§r.",
     "LeviConfig rewrite successfully": "LeviConfig успешно перезаписан",

@@ -65,17 +65,17 @@
     "Enabling plugins": {
         "": {
             "": {
-                "": "Enabling plugins..."
+                "": "กำลังเปิดใช้งานปลั๊กอิน..."
             }
         }
     },
-    "Enabling {0} v{1}": "Enabling {0} v{1}",
+    "Enabling {0} v{1}": "เปิดใช้งาน {0} v{1}",
     "Disabling plugins": {
         "": {
             "": {
-                "": "Disabling plugins..."
+                "": "ปลั๊กอินกำลังปิดการทำงาน..."
             }
         }
     },
-    "Disabling {0} v{1}": "Disabling {0} v{1}"
+    "Disabling {0} v{1}": "ปิดใช้งาน {0} v{1}"
 }

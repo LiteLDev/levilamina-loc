@@ -79,7 +79,7 @@
     "Disabling {0} v{1}": "正在禁用 {0} v{1}",
     "Plugin does not exist, or the manifest is empty": "插件不存在，或者 Manifest 為空",
     "{0} still depends on {1}": "{0} 仍然依賴於 {1}",
-    "Dependency {0} of {1} is not enabled": "{0} 的依賴項 {1} 未啟用",
+    "Dependency {0} of {1} is not enabled": "{1} 的依賴項 {0} 未啟用",
     "Statistics has been enabled, you can disable statistics in configuration file": "統計已啟用，您可以在配置文件中禁用統計",
     "success": "操作成功",
     "Not the expected type": "不是預期的類型",

@@ -3,7 +3,7 @@
     "The plugin cannot be unloaded": "The plugin cannot be unloaded",
     "The plugin cannot be enabled": "The plugin cannot be enabled",
     "The plugin cannot be disabled": "The plugin cannot be disabled",
-    "Plugin not found": "Plugin not found",
+    "Plugin not found": "ไม่พบปลั๊กอิน",
     "Unrecognized plugin type: {0}": "Unrecognized plugin type: {0}",
     "crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
     "Query memory stats": "Query memory stats",
@@ -97,6 +97,6 @@
     "ill-formed UTF-8 byte": "ill-formed UTF-8 byte",
     "brackets are not closed": "brackets are not closed",
     "illegal key-value pair separator": "illegal key-value pair separator",
-    "empty string": "empty string",
-    "unknown error": "unknown error"
+    "empty string": "สตริงว่างปล่าว",
+    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก"
 }

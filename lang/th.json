@@ -54,7 +54,6 @@
     "missing procedure:": "ขั้นตอนที่ขาดหายไป:",
     "Dependency diagnostic:": "การวินิจฉัย Dependency:",
     "Plugin {0} already exists": "มีปลั๊กอิน {0} อยู่แล้ว",
-    "The plugin is not using the unified memory allocation operator, will not be loaded in next version.": "ปลั๊กอินไม่ได้ใช้ตัวดำเนินการจัดสรรหน่วยความจำแบบรวม และ จะไม่ถูกโหลดในเวอร์ชั่นถัดไป",
     "The plugin does not register an unload function": "ปลั๊กอินไม่ได้ลงทะเบียนของฟังก์ชันยกเลิกการโหลด",
     "Manifest is not a valid JSON text": "ไฟล์ Manifest ไม่ใช่ข้อความ JSON ที่ถูกต้อง",
     "Plugin name {0} do not match folder {1}": "ปลั๊กอินชื่อ {0} ไม่ตรงกับโฟลเดอร์ {1}",
@@ -98,5 +97,6 @@
     "brackets are not closed": "วงเล็บปีกกายังไม่ปิด",
     "illegal key-value pair separator": "คู่ key-value ไม่ถูกต้อง",
     "empty string": "สตริงว่างปล่าว",
-    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก"
+    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "ปลั๊กอินไม่ได้ใช้ตัวดำเนินการจัดสรรหน่วยความจำแบบรวม และ จะไม่ถูกโหลดในเวอร์ชั่นถัดไป"
 }

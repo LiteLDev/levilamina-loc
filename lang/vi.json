@@ -54,7 +54,6 @@
     "missing procedure:": "missing procedure:",
     "Dependency diagnostic:": "Dependency diagnostic:",
     "Plugin {0} already exists": "Plugin {0} already exists",
-    "The plugin is not using the unified memory allocation operator, will not be loaded in next version.": "The plugin is not using the unified memory allocation operator, will not be loaded in next version.",
     "The plugin does not register an unload function": "The plugin does not register an unload function",
     "Manifest is not a valid JSON text": "Manifest is not a valid JSON text",
     "Plugin name {0} do not match folder {1}": "Plugin name {0} do not match folder {1}",
@@ -98,5 +97,6 @@
     "brackets are not closed": "brackets are not closed",
     "illegal key-value pair separator": "illegal key-value pair separator",
     "empty string": "empty string",
-    "unknown error": "unknown error"
+    "unknown error": "unknown error",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "The plugin is not using the unified memory allocation operator, will not be loaded."
 }

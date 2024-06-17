@@ -54,7 +54,6 @@
     "missing procedure:": "缺少符号：",
     "Dependency diagnostic:": "依赖诊断：",
     "Plugin {0} already exists": "插件 {0} 已存在",
-    "The plugin is not using the unified memory allocation operator, will not be loaded in next version.": "插件没有使用统一的内存分配操作符，将不会在正式版本中加载。",
     "The plugin does not register an unload function": "插件没有注册卸载函数",
     "Manifest is not a valid JSON text": "Manifest 不是有效的 JSON 文本",
     "Plugin name {0} do not match folder {1}": "插件名称 {0} 与插件文件夹 {1} 不匹配",
@@ -98,5 +97,6 @@
     "brackets are not closed": "括号未闭合",
     "illegal key-value pair separator": "键值对分隔符无效",
     "empty string": "空字符串",
-    "unknown error": "未知错误"
+    "unknown error": "未知错误",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "插件没有使用统一的内存分配操作符，将不会被加载。"
 }

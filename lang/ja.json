@@ -54,7 +54,6 @@
     "missing procedure:": "不足している手順:",
     "Dependency diagnostic:": "依存関係の診断:",
     "Plugin {0} already exists": "プラグイン {0} は既に存在します",
-    "The plugin is not using the unified memory allocation operator, will not be loaded in next version.": "プラグインは統一メモリ割り当て演算子を使用していません、次のバージョンではロードされません。",
     "The plugin does not register an unload function": "プラグインはアンロード関数を登録していません",
     "Manifest is not a valid JSON text": "マニフェストは有効なJSONテキストではありません",
     "Plugin name {0} do not match folder {1}": "プラグイン名 {0} はフォルダ {1} と一致しません",
@@ -98,5 +97,6 @@
     "brackets are not closed": "括弧が閉じられていません",
     "illegal key-value pair separator": "不正なキーと値のペアのセパレータ",
     "empty string": "空の文字列",
-    "unknown error": "不明なエラー"
+    "unknown error": "不明なエラー",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "プラグインは統一メモリ割り当て演算子を使用していません、次のバージョンではロードされません。"
 }

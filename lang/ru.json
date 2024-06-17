@@ -54,7 +54,6 @@
     "missing procedure:": "отсутствует процедура:",
     "Dependency diagnostic:": "Диагностика зависимостей:",
     "Plugin {0} already exists": "Плагин {0} уже существует",
-    "The plugin is not using the unified memory allocation operator, will not be loaded in next version.": "Плагин не использует единый оператор выделения памяти, не будет загружен в следующей версии.",
     "The plugin does not register an unload function": "Плагин не регистрирует функцию выгрузки",
     "Manifest is not a valid JSON text": "Манифест не является допустимым текстом JSON",
     "Plugin name {0} do not match folder {1}": "Имя плагина {0} не соответствует папке {1}",
@@ -98,5 +97,6 @@
     "brackets are not closed": "скобки не закрыты",
     "illegal key-value pair separator": "незаконный разделитель пар ключ-значение",
     "empty string": "пустая строка",
-    "unknown error": "неизвестная ошибка"
+    "unknown error": "неизвестная ошибка",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Плагин не использует единый оператор выделения памяти, не будет загружен в следующей версии."
 }

@@ -54,7 +54,6 @@
     "missing procedure:": "prosedur yang hilang:",
     "Dependency diagnostic:": "Diagnostik ketergantungan:",
     "Plugin {0} already exists": "Plugin {0} sudah ada",
-    "The plugin is not using the unified memory allocation operator, will not be loaded in next version.": "Plugin tidak menggunakan operator alokasi memori terpadu, tidak akan dimuat di versi berikutnya.",
     "The plugin does not register an unload function": "Plugin tidak mendaftarkan fungsi unload",
     "Manifest is not a valid JSON text": "Manifest bukan teks JSON yang valid",
     "Plugin name {0} do not match folder {1}": "Nama plugin {0} tidak cocok dengan folder {1}",
@@ -98,5 +97,6 @@
     "brackets are not closed": "kurung tidak tertutup",
     "illegal key-value pair separator": "pemisah pasangan kunci-nilai ilegal",
     "empty string": "string kosong",
-    "unknown error": "kesalahan tidak diketahui"
+    "unknown error": "kesalahan tidak diketahui",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Plugin tidak menggunakan operator alokasi memori terpadu, tidak akan dimuat di versi berikutnya."
 }

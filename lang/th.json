@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "ไม่สามารถยกเลิกการโหลดปลั๊กอินได้",
     "The plugin cannot be enabled": "ไม่สามารถเปิดใช้งานปลั๊กอินได้",
     "The plugin cannot be disabled": "ไม่สามารถปิดใช้งานปลั๊กอินได้",
-    "Plugin not found": "ไม่พบปลั๊กอิน",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "ปลั๊กอินประเภทที่ไม่รู้จัก: {0}",
+    "Plugin not found": "ไม่พบปลั๊กอิน",
     "crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
     "Query memory stats": "ดึงข้อมูลสถิติของหน่วยความจำ",
     "LeviLamina's main command": "คำสั่งหลักของ LeviLamina",
@@ -53,7 +54,7 @@
     "missing module:": "ขาดโมดูล:",
     "missing procedure:": "ขั้นตอนที่ขาดหายไป:",
     "Dependency diagnostic:": "การวินิจฉัย Dependency:",
-    "Plugin {0} already exists": "มีปลั๊กอิน {0} อยู่แล้ว",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "ปลั๊กอินไม่ได้ใช้ตัวดำเนินการจัดสรรหน่วยความจำแบบรวม และ จะไม่ถูกโหลดในเวอร์ชั่นถัดไป",
     "The plugin does not register an unload function": "ปลั๊กอินไม่ได้ลงทะเบียนของฟังก์ชันยกเลิกการโหลด",
     "Manifest is not a valid JSON text": "ไฟล์ Manifest ไม่ใช่ข้อความ JSON ที่ถูกต้อง",
     "Plugin name {0} do not match folder {1}": "ปลั๊กอินชื่อ {0} ไม่ตรงกับโฟลเดอร์ {1}",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} คงยังขึ้นอยู่กับ {1}",
     "Dependency {0} of {1} is not enabled": "Dependency {0} ของ {1} ไม่ได้เปิดการใช้งาน",
     "Statistics has been enabled, you can disable statistics in configuration file": "ระบบเก็บสถิติได้เปิดทำงานแล้ว คุณสามารถปิดระบบสถิติได้ในไฟล์ config",
-    "success": "สำเร็จ",
     "Not the expected type": "ไม่ใช่ประเภทที่ต้องการ",
     "unexpected end-of-file encountered": "พบการสิ้นสุดไฟล์โดยไม่คาดคิด",
     "unterminated comment, missing closing '*/'": "ไม่มีจุดสิ้นสุดของความคิดเห็น อาจจะขาดการปิดด้วย '*/'",
@@ -97,6 +97,5 @@
     "brackets are not closed": "วงเล็บปีกกายังไม่ปิด",
     "illegal key-value pair separator": "คู่ key-value ไม่ถูกต้อง",
     "empty string": "สตริงว่างปล่าว",
-    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "ปลั๊กอินไม่ได้ใช้ตัวดำเนินการจัดสรรหน่วยความจำแบบรวม และ จะไม่ถูกโหลดในเวอร์ชั่นถัดไป"
+    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก"
 }

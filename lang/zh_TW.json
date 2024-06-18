@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "無法卸載插件",
     "The plugin cannot be enabled": "無法啟用插件",
     "The plugin cannot be disabled": "無法禁用插件",
-    "Plugin not found": "插件未找到",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "無法識別的插件類型：{0}",
+    "Plugin not found": "插件未找到",
     "crash the server": "崩潰服務器",
     "Query memory stats": "查詢內存統計",
     "LeviLamina's main command": "LeviLamina的主要命令",
@@ -53,7 +54,7 @@
     "missing module:": "缺少模塊：",
     "missing procedure:": "缺少符號：",
     "Dependency diagnostic:": "依賴診斷：",
-    "Plugin {0} already exists": "插件 {0} 已存在",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "插件沒有使用統一的內存分配操作符，將不會被加載。",
     "The plugin does not register an unload function": "插件沒有註冊卸載函數",
     "Manifest is not a valid JSON text": "Manifest 不是有效的 JSON 文本",
     "Plugin name {0} do not match folder {1}": "插件名稱 {0} 與插件文件夾 {1} 不匹配",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} 仍然依賴於 {1}",
     "Dependency {0} of {1} is not enabled": "{1} 的依賴項 {0} 未啟用",
     "Statistics has been enabled, you can disable statistics in configuration file": "統計已啟用，您可以在配置文件中禁用統計",
-    "success": "操作成功",
     "Not the expected type": "不是預期的類型",
     "unexpected end-of-file encountered": "遇到意外的文件結尾",
     "unterminated comment, missing closing '*/'": "未終止的注釋，缺少“*/”",
@@ -97,6 +97,5 @@
     "brackets are not closed": "括號未閉合",
     "illegal key-value pair separator": "鍵值對分隔符無效",
     "empty string": "空字符串",
-    "unknown error": "未知錯誤",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "插件沒有使用統一的內存分配操作符，將不會被加載。"
+    "unknown error": "未知錯誤"
 }

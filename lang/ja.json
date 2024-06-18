@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "プラグインをアンロードできません",
     "The plugin cannot be enabled": "プラグインを有効にできません",
     "The plugin cannot be disabled": "プラグインを無効にすることはできません",
-    "Plugin not found": "プラグインが見つかりません",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "認識できないプラグインタイプ: {0}",
+    "Plugin not found": "プラグインが見つかりません",
     "crash the server": "サーバーをクラッシュさせる",
     "Query memory stats": "メモリ統計をクエリする",
     "LeviLamina's main command": "LeviLaminaのメインコマンド",
@@ -53,7 +54,7 @@
     "missing module:": "不足しているモジュール:",
     "missing procedure:": "不足している手順:",
     "Dependency diagnostic:": "依存関係の診断:",
-    "Plugin {0} already exists": "プラグイン {0} は既に存在します",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "プラグインは統一メモリ割り当て演算子を使用していません、次のバージョンではロードされません。",
     "The plugin does not register an unload function": "プラグインはアンロード関数を登録していません",
     "Manifest is not a valid JSON text": "マニフェストは有効なJSONテキストではありません",
     "Plugin name {0} do not match folder {1}": "プラグイン名 {0} はフォルダ {1} と一致しません",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0}はまだ{1}に依存しています",
     "Dependency {0} of {1} is not enabled": "{1}の依存関係{0}は有効になっていません",
     "Statistics has been enabled, you can disable statistics in configuration file": "統計が有効になっています。設定ファイルで統計を無効にすることができます。",
-    "success": "成功",
     "Not the expected type": "予期されるタイプではありません",
     "unexpected end-of-file encountered": "予期しないファイルの終わりに遭遇しました",
     "unterminated comment, missing closing '*/'": "終了していないコメント、閉じる '*/' がありません",
@@ -97,6 +97,5 @@
     "brackets are not closed": "括弧が閉じられていません",
     "illegal key-value pair separator": "不正なキーと値のペアのセパレータ",
     "empty string": "空の文字列",
-    "unknown error": "不明なエラー",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "プラグインは統一メモリ割り当て演算子を使用していません、次のバージョンではロードされません。"
+    "unknown error": "不明なエラー"
 }

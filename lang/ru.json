@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "Плагин не может быть выгружен",
     "The plugin cannot be enabled": "Плагин не может быть включен",
     "The plugin cannot be disabled": "Плагин не может быть отключен",
-    "Plugin not found": "Плагин не найден",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "Неизвестный тип плагина: {0}",
+    "Plugin not found": "Плагин не найден",
     "crash the server": "сбой сервера",
     "Query memory stats": "Запрос статистики памяти",
     "LeviLamina's main command": "Главное командование LeviLamina",
@@ -53,7 +54,7 @@
     "missing module:": "отсутствует модуль:",
     "missing procedure:": "отсутствует процедура:",
     "Dependency diagnostic:": "Диагностика зависимостей:",
-    "Plugin {0} already exists": "Плагин {0} уже существует",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Плагин не использует единый оператор выделения памяти, не будет загружен в следующей версии.",
     "The plugin does not register an unload function": "Плагин не регистрирует функцию выгрузки",
     "Manifest is not a valid JSON text": "Манифест не является допустимым текстом JSON",
     "Plugin name {0} do not match folder {1}": "Имя плагина {0} не соответствует папке {1}",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} все еще зависит от {1}",
     "Dependency {0} of {1} is not enabled": "Зависимость {0} от {1} не включена",
     "Statistics has been enabled, you can disable statistics in configuration file": "Статистика была включена, вы можете отключить статистику в конфигурационном файле",
-    "success": "успех",
     "Not the expected type": "Не ожидаемый тип",
     "unexpected end-of-file encountered": "встречен неожиданный конец файла",
     "unterminated comment, missing closing '*/'": "незавершенный комментарий, отсутствует закрывающий '*/'",
@@ -97,6 +97,5 @@
     "brackets are not closed": "скобки не закрыты",
     "illegal key-value pair separator": "незаконный разделитель пар ключ-значение",
     "empty string": "пустая строка",
-    "unknown error": "неизвестная ошибка",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Плагин не использует единый оператор выделения памяти, не будет загружен в следующей версии."
+    "unknown error": "неизвестная ошибка"
 }

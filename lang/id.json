@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "Plugin tidak dapat dilepas",
     "The plugin cannot be enabled": "Plugin tidak dapat diaktifkan",
     "The plugin cannot be disabled": "Plugin tidak dapat dinonaktifkan",
-    "Plugin not found": "Plugin tidak ditemukan",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "Tipe plugin tidak dikenal: {0}",
+    "Plugin not found": "Plugin tidak ditemukan",
     "crash the server": "server crash",
     "Query memory stats": "Query statistik memori",
     "LeviLamina's main command": "Perintah utama LeviLamina",
@@ -53,7 +54,7 @@
     "missing module:": "modul yang hilang:",
     "missing procedure:": "prosedur yang hilang:",
     "Dependency diagnostic:": "Diagnostik ketergantungan:",
-    "Plugin {0} already exists": "Plugin {0} sudah ada",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Plugin tidak menggunakan operator alokasi memori terpadu, tidak akan dimuat di versi berikutnya.",
     "The plugin does not register an unload function": "Plugin tidak mendaftarkan fungsi unload",
     "Manifest is not a valid JSON text": "Manifest bukan teks JSON yang valid",
     "Plugin name {0} do not match folder {1}": "Nama plugin {0} tidak cocok dengan folder {1}",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} masih bergantung pada {1}",
     "Dependency {0} of {1} is not enabled": "Ketergantungan {0} dari {1} tidak diaktifkan",
     "Statistics has been enabled, you can disable statistics in configuration file": "Statistik telah diaktifkan, Anda dapat menonaktifkan statistik di file konfigurasi",
-    "success": "sukses",
     "Not the expected type": "Bukan tipe yang diharapkan",
     "unexpected end-of-file encountered": "ditemui akhir file yang tidak terduga",
     "unterminated comment, missing closing '*/'": "komentar tidak terakhiri, kehilangan penutup '*/'",
@@ -97,6 +97,5 @@
     "brackets are not closed": "kurung tidak tertutup",
     "illegal key-value pair separator": "pemisah pasangan kunci-nilai ilegal",
     "empty string": "string kosong",
-    "unknown error": "kesalahan tidak diketahui",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Plugin tidak menggunakan operator alokasi memori terpadu, tidak akan dimuat di versi berikutnya."
+    "unknown error": "kesalahan tidak diketahui"
 }

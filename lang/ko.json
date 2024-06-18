@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "The plugin cannot be unloaded",
     "The plugin cannot be enabled": "The plugin cannot be enabled",
     "The plugin cannot be disabled": "The plugin cannot be disabled",
-    "Plugin not found": "Plugin not found",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "Unrecognized plugin type: {0}",
+    "Plugin not found": "Plugin not found",
     "crash the server": "crash the server",
     "Query memory stats": "Query memory stats",
     "LeviLamina's main command": "LeviLamina's main command",
@@ -53,7 +54,7 @@
     "missing module:": "missing module:",
     "missing procedure:": "missing procedure:",
     "Dependency diagnostic:": "Dependency diagnostic:",
-    "Plugin {0} already exists": "Plugin {0} already exists",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "The plugin is not using the unified memory allocation operator, will not be loaded.",
     "The plugin does not register an unload function": "The plugin does not register an unload function",
     "Manifest is not a valid JSON text": "Manifest is not a valid JSON text",
     "Plugin name {0} do not match folder {1}": "Plugin name {0} do not match folder {1}",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} still depends on {1}",
     "Dependency {0} of {1} is not enabled": "Dependency {0} of {1} is not enabled",
     "Statistics has been enabled, you can disable statistics in configuration file": "Statistics has been enabled, you can disable statistics in configuration file",
-    "success": "success",
     "Not the expected type": "Not the expected type",
     "unexpected end-of-file encountered": "unexpected end-of-file encountered",
     "unterminated comment, missing closing '*/'": "unterminated comment, missing closing '*/'",
@@ -97,6 +97,5 @@
     "brackets are not closed": "brackets are not closed",
     "illegal key-value pair separator": "illegal key-value pair separator",
     "empty string": "empty string",
-    "unknown error": "unknown error",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "The plugin is not using the unified memory allocation operator, will not be loaded."
+    "unknown error": "unknown error"
 }

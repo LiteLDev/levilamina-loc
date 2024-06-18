@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "Das Plugin kann nicht entladen werden",
     "The plugin cannot be enabled": "Das Plugin kann nicht aktiviert werden",
     "The plugin cannot be disabled": "Das Plugin kann nicht deaktiviert werden",
-    "Plugin not found": "Plugin nicht gefunden",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "Unbekannter Plugin-Typ: {0}",
+    "Plugin not found": "Plugin nicht gefunden",
     "crash the server": "den Server abstürzen",
     "Query memory stats": "Speicherstatistiken abfragen",
     "LeviLamina's main command": "LeviLaminas Hauptbefehl",
@@ -53,7 +54,7 @@
     "missing module:": "fehlendes Modul:",
     "missing procedure:": "fehlendes Verfahren:",
     "Dependency diagnostic:": "Abhängigkeitsdiagnose:",
-    "Plugin {0} already exists": "Plugin {0} existiert bereits",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Das Plugin verwendet nicht den einheitlichen Speicherzuweisungsoperator, wird in der nächsten Version nicht geladen.",
     "The plugin does not register an unload function": "Das Plugin registriert keine Entladefunktion",
     "Manifest is not a valid JSON text": "Manifest ist kein gültiger JSON-Text",
     "Plugin name {0} do not match folder {1}": "Plugin-Name {0} entspricht nicht Ordner {1}",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} hängt immer noch von {1} ab",
     "Dependency {0} of {1} is not enabled": "Abhängigkeit {0} von {1} ist nicht aktiviert",
     "Statistics has been enabled, you can disable statistics in configuration file": "Statistiken wurden aktiviert, Sie können Statistiken in der Konfigurationsdatei deaktivieren",
-    "success": "Erfolg",
     "Not the expected type": "Nicht der erwartete Typ",
     "unexpected end-of-file encountered": "Unerwartetes Dateiende aufgetreten",
     "unterminated comment, missing closing '*/'": "Unbeendeter Kommentar, schließendes '*/' fehlt",
@@ -97,6 +97,5 @@
     "brackets are not closed": "Klammern sind nicht geschlossen",
     "illegal key-value pair separator": "Illegaler Schlüssel-Wert-Paar-Trenner",
     "empty string": "Leere Zeichenkette",
-    "unknown error": "Unbekannter Fehler",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Das Plugin verwendet nicht den einheitlichen Speicherzuweisungsoperator, wird in der nächsten Version nicht geladen."
+    "unknown error": "Unbekannter Fehler"
 }

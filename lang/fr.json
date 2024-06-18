@@ -3,8 +3,9 @@
     "The plugin cannot be unloaded": "Le plugin ne peut pas être déchargé",
     "The plugin cannot be enabled": "Le plugin ne peut pas être activé",
     "The plugin cannot be disabled": "Le plugin ne peut pas être désactivé",
-    "Plugin not found": "Plugin introuvable",
+    "Plugin {0} already loaded": "Plugin {0} already loaded",
     "Unrecognized plugin type: {0}": "Type de plugin non reconnu : {0}",
+    "Plugin not found": "Plugin introuvable",
     "crash the server": "planter le serveur",
     "Query memory stats": "Requérir les stats de mémoire",
     "LeviLamina's main command": "La commande principale de LeviLamina",
@@ -53,7 +54,7 @@
     "missing module:": "module manquant :",
     "missing procedure:": "Acte manquant :",
     "Dependency diagnostic:": "Diagnostic de dépendance:",
-    "Plugin {0} already exists": "Le plugin {0} existe déjà",
+    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Le plugin n'utilise pas l'opérateur d'allocation de mémoire unifiée, ne sera pas chargé dans la prochaine version.",
     "The plugin does not register an unload function": "Le plugin n'enregistre pas une fonction de déchargement",
     "Manifest is not a valid JSON text": "Le manifeste n'est pas un texte JSON valide",
     "Plugin name {0} do not match folder {1}": "Le nom du plugin {0} ne correspond pas au dossier {1}",
@@ -80,7 +81,6 @@
     "{0} still depends on {1}": "{0} dépend toujours de {1}",
     "Dependency {0} of {1} is not enabled": "La dépendance {0} de {1} n'est pas activée",
     "Statistics has been enabled, you can disable statistics in configuration file": "Les statistiques ont été activées, vous pouvez désactiver les statistiques dans le fichier de configuration",
-    "success": "Réussi",
     "Not the expected type": "Type non attendu",
     "unexpected end-of-file encountered": "fin de fichier inattendue rencontrée",
     "unterminated comment, missing closing '*/'": "commentaire non terminé, fermeture '*/' manquante",
@@ -97,6 +97,5 @@
     "brackets are not closed": "les accolades ne sont pas fermées",
     "illegal key-value pair separator": "séparateur de paire de clés invalide",
     "empty string": "chaîne vide",
-    "unknown error": "erreur inconnue",
-    "The plugin is not using the unified memory allocation operator, will not be loaded.": "Le plugin n'utilise pas l'opérateur d'allocation de mémoire unifiée, ne sera pas chargé dans la prochaine version."
+    "unknown error": "erreur inconnue"
 }

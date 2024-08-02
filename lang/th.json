@@ -9,7 +9,7 @@
     "crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
     "Query memory stats": "ดึงข้อมูลสถิติของหน่วยความจำ",
     "LeviLamina's main command": "คำสั่งหลักของ LeviLamina",
-    "Load mod {0} successfully": "Load mod {0} successfully",
+    "Load mod {0} successfully": "โหลดปลั๊กอิน {0} สำเร็จแล้ว",
     "Failed to load mod {0}": "Failed to load mod {0}",
     "Unload mod {0} successfully": "Unload mod {0} successfully",
     "Failed to unload mod {0}": "Failed to unload mod {0}",

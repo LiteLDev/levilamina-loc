@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "Falha ao criar o mod manager nativo",
     "Failed to load manifest for {0}": "Falha ao carregar o manifesto para {0}",
     "Missing dependency {0}": "Dependência {0} faltando",
-    "The dependencies of {0} are missing, will not be loaded": "As dependências {0} estão faltando, não serão carregadas",
     "{0} conflicts with {1}": "{0} conflita com {1}",
-    "The dependencies of {0} are in conflict, will not be loaded": "As dependências de {0} estão em conflito, não serão carregadas",
-    "The dependencies of {0} are in loops, will not be loaded": "As dependências de {0} estão em loops, não serão carregadas",
-    "The dependencies of {0} is not loaded, will not be loaded": "As dependências de {0} não estão carregadas, não serão carregadas",
     "Loading {0} v{1}": "Carregando {0} v{1}",
     "{0} loaded": "{0} carregado",
     "{0} mod(s) loaded": "Mod {0} carregado",
@@ -75,7 +71,6 @@
     "missing module:": "módulo faltando:",
     "missing procedure:": "processo em falta:",
     "Dependency diagnostic:": "Diagnóstico de dependência:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "O mod não está usando o operador unificado de alocação de memória, não será carregado.",
     "The mod does not register an unload function": "O mod não registra uma função de descarga",
     "Statistics has been enabled, you can disable statistics in configuration file": "As estatísticas foram ativadas, você pode desativar as estatísticas no arquivo de configuração.",
     "Not the expected type": "Não é o tipo esperado",
@@ -94,5 +89,10 @@
     "brackets are not closed": "colchetes não estão fechados",
     "illegal key-value pair separator": "separador de par de chave-valor ilegal",
     "empty string": "string vazia",
-    "unknown error": "erro desconhecido"
+    "unknown error": "erro desconhecido",
+    "{0} will not be loaded because the dependencies are missing": "As dependências {0} estão faltando, não serão carregadas",
+    "{0} will not be loaded because the dependencies can't loaded": "As dependências de {0} estão em conflito, não serão carregadas",
+    "{0} will not be loaded because the dependency are in loops": "As dependências de {0} estão em loops, não serão carregadas",
+    "{0} will not be loaded because the dependencies are not loaded": "As dependências de {0} não estão carregadas, não serão carregadas",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "O mod não está usando o operador unificado de alocação de memória, não será carregado."
 }

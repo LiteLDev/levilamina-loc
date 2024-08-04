@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "Failed to create native mod manager",
     "Failed to load manifest for {0}": "Gagal memuat manifes untuk {0}",
     "Missing dependency {0}": "Ketergantungan {0} hilang",
-    "The dependencies of {0} are missing, will not be loaded": "Ketergantungan dari {0} hilang, tidak akan dimuat",
     "{0} conflicts with {1}": "{0} bertentangan dengan {1}",
-    "The dependencies of {0} are in conflict, will not be loaded": "Ketergantungan dari {0} dalam konflik, tidak akan dimuat",
-    "The dependencies of {0} are in loops, will not be loaded": "Ketergantungan dari {0} dalam loop, tidak akan dimuat",
-    "The dependencies of {0} is not loaded, will not be loaded": "Ketergantungan dari {0} tidak dimuat, tidak akan dimuat",
     "Loading {0} v{1}": "Memuat {0} v{1}",
     "{0} loaded": "{0} dimuat",
     "{0} mod(s) loaded": "{0} mod(s) loaded",
@@ -75,7 +71,6 @@
     "missing module:": "modul yang hilang:",
     "missing procedure:": "prosedur yang hilang:",
     "Dependency diagnostic:": "Diagnostik ketergantungan:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "The mod is not using the unified memory allocation operator, will not be loaded.",
     "The mod does not register an unload function": "The mod does not register an unload function",
     "Statistics has been enabled, you can disable statistics in configuration file": "Statistik telah diaktifkan, Anda dapat menonaktifkan statistik di file konfigurasi",
     "Not the expected type": "Bukan tipe yang diharapkan",
@@ -94,5 +89,10 @@
     "brackets are not closed": "kurung tidak tertutup",
     "illegal key-value pair separator": "pemisah pasangan kunci-nilai ilegal",
     "empty string": "string kosong",
-    "unknown error": "kesalahan tidak diketahui"
+    "unknown error": "kesalahan tidak diketahui",
+    "{0} will not be loaded because the dependencies are missing": "Ketergantungan dari {0} hilang, tidak akan dimuat",
+    "{0} will not be loaded because the dependencies can't loaded": "Ketergantungan dari {0} dalam konflik, tidak akan dimuat",
+    "{0} will not be loaded because the dependency are in loops": "Ketergantungan dari {0} dalam loop, tidak akan dimuat",
+    "{0} will not be loaded because the dependencies are not loaded": "Ketergantungan dari {0} tidak dimuat, tidak akan dimuat",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator"
 }

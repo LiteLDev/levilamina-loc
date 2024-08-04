@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "Не удалось создать родной менеджер модов",
     "Failed to load manifest for {0}": "Не удалось загрузить манифест для {0}",
     "Missing dependency {0}": "Отсутствует зависимость {0}",
-    "The dependencies of {0} are missing, will not be loaded": "Зависимости {0} отсутствуют, не будут загружены",
     "{0} conflicts with {1}": "{0} конфликтует с {1}",
-    "The dependencies of {0} are in conflict, will not be loaded": "Зависимости {0} находятся в конфликте, не будут загружены",
-    "The dependencies of {0} are in loops, will not be loaded": "Зависимости {0} находятся в циклах, не будут загружены",
-    "The dependencies of {0} is not loaded, will not be loaded": "Зависимости {0} не загружены, не будут загружены",
     "Loading {0} v{1}": "Загрузка {0} v{1}",
     "{0} loaded": "{0} загружен",
     "{0} mod(s) loaded": "{0} мод(ы) загружен",
@@ -75,7 +71,6 @@
     "missing module:": "отсутствует модуль:",
     "missing procedure:": "отсутствует процедура:",
     "Dependency diagnostic:": "Диагностика зависимостей:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "Мод не использует унифицированного оператора распределения памяти, не будет загружен.",
     "The mod does not register an unload function": "Мод не регистрирует функцию выгрузки",
     "Statistics has been enabled, you can disable statistics in configuration file": "Статистика была включена, вы можете отключить статистику в конфигурационном файле",
     "Not the expected type": "Не ожидаемый тип",
@@ -94,5 +89,10 @@
     "brackets are not closed": "скобки не закрыты",
     "illegal key-value pair separator": "незаконный разделитель пар ключ-значение",
     "empty string": "пустая строка",
-    "unknown error": "неизвестная ошибка"
+    "unknown error": "неизвестная ошибка",
+    "{0} will not be loaded because the dependencies are missing": "Зависимости {0} отсутствуют, не будут загружены",
+    "{0} will not be loaded because the dependencies can't loaded": "Зависимости {0} находятся в конфликте, не будут загружены",
+    "{0} will not be loaded because the dependency are in loops": "Зависимости {0} находятся в циклах, не будут загружены",
+    "{0} will not be loaded because the dependencies are not loaded": "Зависимости {0} не загружены, не будут загружены",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "Мод не использует унифицированного оператора распределения памяти, не будет загружен."
 }

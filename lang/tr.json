@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "Failed to create native mod manager",
     "Failed to load manifest for {0}": "Failed to load manifest for {0}",
     "Missing dependency {0}": "Missing dependency {0}",
-    "The dependencies of {0} are missing, will not be loaded": "The dependencies of {0} are missing, will not be loaded",
     "{0} conflicts with {1}": "{0} conflicts with {1}",
-    "The dependencies of {0} are in conflict, will not be loaded": "The dependencies of {0} are in conflict, will not be loaded",
-    "The dependencies of {0} are in loops, will not be loaded": "The dependencies of {0} are in loops, will not be loaded",
-    "The dependencies of {0} is not loaded, will not be loaded": "The dependencies of {0} is not loaded, will not be loaded",
     "Loading {0} v{1}": "Loading {0} v{1}",
     "{0} loaded": "{0} loaded",
     "{0} mod(s) loaded": "{0} mod(s) loaded",
@@ -75,7 +71,6 @@
     "missing module:": "missing module:",
     "missing procedure:": "missing procedure:",
     "Dependency diagnostic:": "Dependency diagnostic:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "The mod is not using the unified memory allocation operator, will not be loaded.",
     "The mod does not register an unload function": "The mod does not register an unload function",
     "Statistics has been enabled, you can disable statistics in configuration file": "Statistics has been enabled, you can disable statistics in configuration file",
     "Not the expected type": "Not the expected type",
@@ -94,5 +89,10 @@
     "brackets are not closed": "brackets are not closed",
     "illegal key-value pair separator": "illegal key-value pair separator",
     "empty string": "empty string",
-    "unknown error": "unknown error"
+    "unknown error": "unknown error",
+    "{0} will not be loaded because the dependencies are missing": "{0} will not be loaded because the dependencies are missing",
+    "{0} will not be loaded because the dependencies can't loaded": "{0} will not be loaded because the dependencies can't loaded",
+    "{0} will not be loaded because the dependency are in loops": "{0} will not be loaded because the dependency are in loops",
+    "{0} will not be loaded because the dependencies are not loaded": "{0} will not be loaded because the dependencies are not loaded",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator"
 }

@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "ネイティブのModマネージャーの作成に失敗しました",
     "Failed to load manifest for {0}": "{0}のマニフェストのロードに失敗しました",
     "Missing dependency {0}": "不足している依存関係 {0}",
-    "The dependencies of {0} are missing, will not be loaded": "{0}の依存関係が不足しているため、ロードされません",
     "{0} conflicts with {1}": "{0}は{1}と競合しています",
-    "The dependencies of {0} are in conflict, will not be loaded": "{0}の依存関係に競合があるため、ロードされません",
-    "The dependencies of {0} are in loops, will not be loaded": "{0}の依存関係にループがあるため、ロードされません",
-    "The dependencies of {0} is not loaded, will not be loaded": "{0}の依存関係がロードされていないため、ロードされません",
     "Loading {0} v{1}": "{0} v{1}をロード中",
     "{0} loaded": "{0}がロードされました",
     "{0} mod(s) loaded": "{0} mod(s) がロードされました",
@@ -75,7 +71,6 @@
     "missing module:": "不足しているモジュール:",
     "missing procedure:": "不足している手順:",
     "Dependency diagnostic:": "依存関係の診断:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "統合メモリ割り当て演算子を使用していないため、読み込まれません。",
     "The mod does not register an unload function": "The mod does not register an unload function",
     "Statistics has been enabled, you can disable statistics in configuration file": "統計が有効になっています。設定ファイルで統計を無効にすることができます。",
     "Not the expected type": "予期されるタイプではありません",
@@ -94,5 +89,10 @@
     "brackets are not closed": "括弧が閉じられていません",
     "illegal key-value pair separator": "不正なキーと値のペアのセパレータ",
     "empty string": "空の文字列",
-    "unknown error": "不明なエラー"
+    "unknown error": "不明なエラー",
+    "{0} will not be loaded because the dependencies are missing": "{0}の依存関係が不足しているため、ロードされません",
+    "{0} will not be loaded because the dependencies can't loaded": "{0}の依存関係に競合があるため、ロードされません",
+    "{0} will not be loaded because the dependency are in loops": "{0}の依存関係にループがあるため、ロードされません",
+    "{0} will not be loaded because the dependencies are not loaded": "{0}の依存関係がロードされていないため、ロードされません",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "統合メモリ割り当て演算子を使用していないため、読み込まれません。"
 }

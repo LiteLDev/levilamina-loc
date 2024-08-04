@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "Impossible de créer le gestionnaire de mods natif",
     "Failed to load manifest for {0}": "Impossible de charger le manifeste pour {0}",
     "Missing dependency {0}": "Dépendance {0} manquante",
-    "The dependencies of {0} are missing, will not be loaded": "Les dépendances de {0} sont manquantes, ne seront pas chargées",
     "{0} conflicts with {1}": "{0} est en conflit avec {1}",
-    "The dependencies of {0} are in conflict, will not be loaded": "Les dépendances de {0} sont en conflit, ne seront pas chargées",
-    "The dependencies of {0} are in loops, will not be loaded": "Les dépendances de {0} sont en boucles, ne seront pas chargées",
-    "The dependencies of {0} is not loaded, will not be loaded": "Les dépendances de {0} ne sont pas chargées, ne seront pas chargées",
     "Loading {0} v{1}": "Chargement {0} v{1}",
     "{0} loaded": "{0} chargé",
     "{0} mod(s) loaded": "{0} mod(s) loaded",
@@ -75,7 +71,6 @@
     "missing module:": "module manquant :",
     "missing procedure:": "Acte manquant :",
     "Dependency diagnostic:": "Diagnostic de dépendance:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "Le mod n'utilise pas l'opérateur d'allocation de mémoire unifiée, ne sera pas chargé.",
     "The mod does not register an unload function": "Le mod n'enregistre pas une fonction de déchargement",
     "Statistics has been enabled, you can disable statistics in configuration file": "Les statistiques ont été activées, vous pouvez désactiver les statistiques dans le fichier de configuration",
     "Not the expected type": "Type non attendu",
@@ -94,5 +89,10 @@
     "brackets are not closed": "les accolades ne sont pas fermées",
     "illegal key-value pair separator": "séparateur de paire de clés invalide",
     "empty string": "chaîne vide",
-    "unknown error": "erreur inconnue"
+    "unknown error": "erreur inconnue",
+    "{0} will not be loaded because the dependencies are missing": "Les dépendances de {0} sont manquantes, ne seront pas chargées",
+    "{0} will not be loaded because the dependencies can't loaded": "Les dépendances de {0} sont en conflit, ne seront pas chargées",
+    "{0} will not be loaded because the dependency are in loops": "Les dépendances de {0} sont en boucles, ne seront pas chargées",
+    "{0} will not be loaded because the dependencies are not loaded": "Les dépendances de {0} ne sont pas chargées, ne seront pas chargées",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "Le mod n'utilise pas l'opérateur d'allocation de mémoire unifiée, ne sera pas chargé."
 }

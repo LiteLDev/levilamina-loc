@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "Failed to create native mod manager",
     "Failed to load manifest for {0}": "ไม่สามารถโหลด manifest สำหรับ {0}",
     "Missing dependency {0}": "ไม่พบ dependency {0}",
-    "The dependencies of {0} are missing, will not be loaded": "Dependencies ของ {0} หายไป จะไม่สามารถโหลดได้",
     "{0} conflicts with {1}": "{0} ขัดแย้งกับ {1}",
-    "The dependencies of {0} are in conflict, will not be loaded": "Dependencies ของ {0} ขัดแย้งกัน จะไม่สามารถโหลดได้",
-    "The dependencies of {0} are in loops, will not be loaded": "Dependencies ของ {0} อยู่ในวนลูป จะไม่สามารถโหลดได้",
-    "The dependencies of {0} is not loaded, will not be loaded": "Dependencies ของ {0} ไม่ได้โหลด จะไม่สามารถโหลดได้",
     "Loading {0} v{1}": "กำลังโหลด {0} v{1}",
     "{0} loaded": "โหลด {0} แล้ว",
     "{0} mod(s) loaded": "{0} mod(s) loaded",
@@ -75,7 +71,6 @@
     "missing module:": "ขาดโมดูล:",
     "missing procedure:": "ขั้นตอนที่ขาดหายไป:",
     "Dependency diagnostic:": "การวินิจฉัย Dependency:",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "The mod is not using the unified memory allocation operator, will not be loaded.",
     "The mod does not register an unload function": "The mod does not register an unload function",
     "Statistics has been enabled, you can disable statistics in configuration file": "ระบบเก็บสถิติได้เปิดทำงานแล้ว คุณสามารถปิดระบบสถิติได้ในไฟล์ config",
     "Not the expected type": "ไม่ใช่ประเภทที่ต้องการ",
@@ -94,5 +89,10 @@
     "brackets are not closed": "วงเล็บปีกกายังไม่ปิด",
     "illegal key-value pair separator": "คู่ key-value ไม่ถูกต้อง",
     "empty string": "สตริงว่างปล่าว",
-    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก"
+    "unknown error": "ข้อผิดพลาดที่ไม่รู้จัก",
+    "{0} will not be loaded because the dependencies are missing": "Dependencies ของ {0} หายไป จะไม่สามารถโหลดได้",
+    "{0} will not be loaded because the dependencies can't loaded": "Dependencies ของ {0} ขัดแย้งกัน จะไม่สามารถโหลดได้",
+    "{0} will not be loaded because the dependency are in loops": "Dependencies ของ {0} อยู่ในวนลูป จะไม่สามารถโหลดได้",
+    "{0} will not be loaded because the dependencies are not loaded": "Dependencies ของ {0} ไม่ได้โหลด จะไม่สามารถโหลดได้",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator"
 }

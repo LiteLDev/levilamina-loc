@@ -55,11 +55,7 @@
     "Failed to create native mod manager": "创建原生模组管理器失败",
     "Failed to load manifest for {0}": "为 {0} 加载 Manifest 文件失败",
     "Missing dependency {0}": "缺少依赖项 {0}",
-    "The dependencies of {0} are missing, will not be loaded": "{0} 的依赖项缺失，将不会被加载",
     "{0} conflicts with {1}": "{0} 与 {1} 冲突",
-    "The dependencies of {0} are in conflict, will not be loaded": "{0} 的依赖项存在冲突，将不会被加载",
-    "The dependencies of {0} are in loops, will not be loaded": "{0} 的依赖项存在循环依赖，将不会被加载",
-    "The dependencies of {0} is not loaded, will not be loaded": "{0} 的依赖项未加载，将不会被加载",
     "Loading {0} v{1}": "正在加载 {0} v{1}",
     "{0} loaded": "{0} 已加载",
     "{0} mod(s) loaded": "已加载 {0} 个模组",
@@ -75,7 +71,6 @@
     "missing module:": "缺少模块：",
     "missing procedure:": "缺少符号：",
     "Dependency diagnostic:": "依赖诊断：",
-    "The mod is not using the unified memory allocation operator, will not be loaded.": "模组没有使用统一的内存分配操作符，将不会被加载。",
     "The mod does not register an unload function": "模组没有注册卸载函数",
     "Statistics has been enabled, you can disable statistics in configuration file": "统计已启用，您可以在配置文件中禁用统计",
     "Not the expected type": "不是预期的类型",
@@ -94,5 +89,10 @@
     "brackets are not closed": "括号未闭合",
     "illegal key-value pair separator": "键值对分隔符无效",
     "empty string": "空字符串",
-    "unknown error": "未知错误"
+    "unknown error": "未知错误",
+    "{0} will not be loaded because the dependencies are missing": "{0} 将不会被加载因为依赖项缺失",
+    "{0} will not be loaded because the dependencies can't loaded": "{0} 将不会被加载因为依赖项存在冲突",
+    "{0} will not be loaded because the dependency are in loops": "{0} 将不会被加载因为依赖项存在循环依赖",
+    "{0} will not be loaded because the dependencies are not loaded": "{0} 将不会被加载因为依赖项未加载",
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 将不会被加载因为没有使用统一的内存分配操作符。"
 }

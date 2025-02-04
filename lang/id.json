@@ -3,7 +3,7 @@
     "The mod cannot be unloaded": "The mod cannot be unloaded",
     "The mod cannot be enabled": "The mod cannot be enabled",
     "The mod cannot be disabled": "The mod cannot be disabled",
-    "Mod {0} already loaded": "Mod {0} already loaded",
+    "Mod {0} already loaded": "Mod {0} sudah dimuat",
     "Unrecognized mod type: {0}": "Unrecognized mod type: {0}",
     "Mod {0} not found": "Mod {0} not found",
     "crash the server": "server crash",
@@ -48,7 +48,7 @@
     "Help us translate & improve text -> {0}": "Bantu kami menerjemahkan & memperbaiki teks -> {0}",
     "Protocol version not match, target version: {0}, current version: {1}": "Versi protokol tidak cocok, versi target: {0}, versi saat ini: {1}",
     "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "Ini kemungkinan akan menyebabkan server crash, silakan gunakan LeviLamina yang sesuai dengan versi BDS!",
-    "LeviLamina is running in DEBUG mode!": "LeviLamina is running in DEBUG mode!",
+    "LeviLamina is running in DEBUG mode!": "LeviLamina berjalan di mode DEBUG!",
     "Manifest is not a valid JSON text": "Manifest bukan teks JSON yang valid",
     "Mod name {0} do not match folder {1}": "Mod name {0} do not match folder {1}",
     "Loading mods...": "Loading mods...",
@@ -59,7 +59,7 @@
     "Loading {0} v{1}": "Memuat {0} v{1}",
     "{0} loaded": "{0} dimuat",
     "{0} mod(s) loaded": "{0} mod(s) loaded",
-    "Enabling mods...": "Enabling mods...",
+    "Enabling mods...": "Mengaktifkan mod...",
     "Enabling {0} v{1}": "Mengaktifkan {0} v{1}",
     "{0} mod(s) enabled in ({1:.1f}s)": "{0} mod(s) enabled in ({1:.1f}s)",
     "Disabling mods...": "Disabling mods...",
@@ -94,5 +94,5 @@
     "{0} will not be loaded because the dependencies can't loaded": "Ketergantungan dari {0} dalam konflik, tidak akan dimuat",
     "{0} will not be loaded because the dependency are in loops": "Ketergantungan dari {0} dalam loop, tidak akan dimuat",
     "{0} will not be loaded because the dependencies are not loaded": "Ketergantungan dari {0} tidak dimuat, tidak akan dimuat",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} tidak akan dimuat karena tidak menggunakan unified memory allocation operator"
 }

@@ -14,7 +14,7 @@ lip install github.com/LiteLDev/levilamina-loc
 
 ## Contributing
 
-To contribute to this repository, go to [Crowdin](https://translate.liteldev.com/)
+To contribute to this repository, go to [Crowdin](https://translate.levimc.org/)
 
 ## License
 

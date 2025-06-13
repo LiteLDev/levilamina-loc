@@ -1,21 +1,31 @@
 {
-    "format_version": 2,
+    "format_version": 3,
+    "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
     "tooth": "github.com/LiteLDev/levilamina-loc",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "info": {
         "name": "levilamina-loc",
         "description": "Language packs of LeviLamina",
-        "author": "LiteLDev",
         "tags": [
             "levilamina"
-        ]
+        ],
+        "avatar_url": ""
     },
-    "files": {
-        "place": [
-            {
-                "src": "lang/*",
-                "dest": "plugins/LeviLamina/lang/"
-            }
-        ]
-    }
+    "variants": [
+        {
+            "platform": "win-x64",
+            "assets": [
+                {
+                    "type": "self",
+                    "placements": [
+                        {
+                            "type": "dir",
+                            "src": "lang/",
+                            "dest": "plugins/LeviLamina/lang/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

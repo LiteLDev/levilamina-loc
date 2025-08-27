@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "{0} 将不会被加载因为依赖项存在冲突",
     "{0} will not be loaded because the dependency are in loops": "{0} 将不会被加载因为依赖项存在循环依赖",
     "{0} will not be loaded because the dependencies are not loaded": "{0} 将不会被加载因为依赖项未加载",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 将不会被加载因为没有使用统一的内存分配操作符。"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 将不会被加载因为没有使用统一的内存分配操作符。",
+    "Extra Info:": "额外信息："
 }

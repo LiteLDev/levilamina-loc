@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "Dependencies ของ {0} ขัดแย้งกัน จะไม่สามารถโหลดได้",
     "{0} will not be loaded because the dependency are in loops": "Dependencies ของ {0} อยู่ในวนลูป จะไม่สามารถโหลดได้",
     "{0} will not be loaded because the dependencies are not loaded": "Dependencies ของ {0} ไม่ได้โหลด จะไม่สามารถโหลดได้",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator",
+    "Extra Info:": "Extra Info:"
 }

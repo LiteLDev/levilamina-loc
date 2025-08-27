@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "Le dipendenze di {0} sono in conflitto, non verranno caricate",
     "{0} will not be loaded because the dependency are in loops": "Le dipendenze di {0} sono in loop, non verranno caricate",
     "{0} will not be loaded because the dependencies are not loaded": "Le dipendenze di {0} non sono state caricate, non verranno caricate",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "La mod non utilizza l'operatore di allocazione della memoria unificata, non verrà caricata."
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "La mod non utilizza l'operatore di allocazione della memoria unificata, non verrà caricata.",
+    "Extra Info:": "Informazioni Aggiuntive:"
 }

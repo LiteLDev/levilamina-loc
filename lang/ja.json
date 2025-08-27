@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "{0}の依存関係に競合があるため、ロードされません",
     "{0} will not be loaded because the dependency are in loops": "{0}の依存関係にループがあるため、ロードされません",
     "{0} will not be loaded because the dependencies are not loaded": "{0}の依存関係がロードされていないため、ロードされません",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "統合メモリ割り当て演算子を使用していないため、読み込まれません。"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "統合メモリ割り当て演算子を使用していないため、読み込まれません。",
+    "Extra Info:": "追加情報:"
 }

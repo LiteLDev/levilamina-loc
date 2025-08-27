@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "Ketergantungan dari {0} dalam konflik, tidak akan dimuat",
     "{0} will not be loaded because the dependency are in loops": "Ketergantungan dari {0} dalam loop, tidak akan dimuat",
     "{0} will not be loaded because the dependencies are not loaded": "Ketergantungan dari {0} tidak dimuat, tidak akan dimuat",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} tidak akan dimuat karena tidak menggunakan unified memory allocation operator"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} tidak akan dimuat karena tidak menggunakan unified memory allocation operator",
+    "Extra Info:": "Extra Info:"
 }

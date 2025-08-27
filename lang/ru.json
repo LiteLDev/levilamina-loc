@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "Зависимости {0} находятся в конфликте, не будут загружены",
     "{0} will not be loaded because the dependency are in loops": "Зависимости {0} находятся в циклах, не будут загружены",
     "{0} will not be loaded because the dependencies are not loaded": "Зависимости {0} не загружены, не будут загружены",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "Мод не использует унифицированного оператора распределения памяти, не будет загружен."
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "Мод не использует унифицированного оператора распределения памяти, не будет загружен.",
+    "Extra Info:": "Дополнительная информация:"
 }

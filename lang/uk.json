@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "{0} не буде завантажено, тому що не вдалося завантажити залежності",
     "{0} will not be loaded because the dependency are in loops": "{0} не буде завантажено, тому що залежність в петлях",
     "{0} will not be loaded because the dependencies are not loaded": "{0} не буде завантажено, оскільки залежності не будуть завантажені",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} не буде завантажено, оскільки він не використовує оператора виділеного місця"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} не буде завантажено, оскільки він не використовує оператора виділеного місця",
+    "Extra Info:": "Додаткова інформація:"
 }

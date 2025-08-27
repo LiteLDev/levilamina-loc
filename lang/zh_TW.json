@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "{0} 將不會被加載因為依賴項存在衝突",
     "{0} will not be loaded because the dependency are in loops": "{0} 將不會被加載因為依賴項存在循環依賴",
     "{0} will not be loaded because the dependencies are not loaded": "{0} 將不會被加載因為依賴項未加載",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 無法被加載因為沒有使用統一的內存分配操作符"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 無法被加載因為沒有使用統一的內存分配操作符",
+    "Extra Info:": "Extra Info:"
 }

@@ -94,5 +94,6 @@
     "{0} will not be loaded because the dependencies can't loaded": "{0} will not be loaded because the dependencies can't loaded",
     "{0} will not be loaded because the dependency are in loops": "{0} will not be loaded because the dependency are in loops",
     "{0} will not be loaded because the dependencies are not loaded": "{0} will not be loaded because the dependencies are not loaded",
-    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator"
+    "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator",
+    "Extra Info:": "Extra Info:"
 }

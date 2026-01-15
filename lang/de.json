@@ -6,7 +6,6 @@
     "Mod {0} already loaded": "Mod {0} bereits geladen",
     "Unrecognized mod type: {0}": "Unbekannter Mod-Typ: {0}",
     "Mod {0} not found": "Mod {0} nicht gefunden",
-    "crash the server": "den Server abstürzen",
     "Query memory stats": "Speicherstatistiken abfragen",
     "LeviLamina's main command": "LeviLaminas Hauptbefehl",
     "Load mod {0} successfully": "Mod {0} erfolgreich laden",
@@ -95,5 +94,8 @@
     "{0} will not be loaded because the dependency are in loops": "Die Abhängigkeiten von {0} sind in Schleifen, werden nicht geladen",
     "{0} will not be loaded because the dependencies are not loaded": "Die Abhängigkeiten von {0} sind nicht geladen, werden nicht geladen",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "Der Mod verwendet nicht den Unified Memory Allokations-Operator, wird nicht geladen.",
-    "Extra Info:": "Zusätzliche Info:"
+    "Extra Info:": "Zusätzliche Info:",
+    "Crash the server": "den Server abstürzen",
+    "Crash the client": "Client abstürzen",
+    "Query client version information": "Client-Versionsinformationen abfragen"
 }

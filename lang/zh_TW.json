@@ -6,7 +6,6 @@
     "Mod {0} already loaded": "{0} 已加載",
     "Unrecognized mod type: {0}": "無法識別的模組類型：{0}",
     "Mod {0} not found": "找不到模組 {0}",
-    "crash the server": "崩潰服務器",
     "Query memory stats": "查詢內存統計",
     "LeviLamina's main command": "LeviLamina的主要命令",
     "Load mod {0} successfully": "{0} 加載成功",
@@ -95,5 +94,8 @@
     "{0} will not be loaded because the dependency are in loops": "{0} 將不會被加載因為依賴項存在循環依賴",
     "{0} will not be loaded because the dependencies are not loaded": "{0} 將不會被加載因為依賴項未加載",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 無法被加載因為沒有使用統一的內存分配操作符",
-    "Extra Info:": "Extra Info:"
+    "Extra Info:": "額外資訊：",
+    "Crash the server": "使伺服器崩潰",
+    "Crash the client": "使客戶端崩溃",
+    "Query client version information": "查詢客戶端版本信息"
 }

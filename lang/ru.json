@@ -6,7 +6,6 @@
     "Mod {0} already loaded": "Мод {0} уже загружен",
     "Unrecognized mod type: {0}": "Нераспознанный тип мода: {0}",
     "Mod {0} not found": "Мод {0} не найден",
-    "crash the server": "сбой сервера",
     "Query memory stats": "Запрос статистики памяти",
     "LeviLamina's main command": "Главное командование LeviLamina",
     "Load mod {0} successfully": "Мод {0} успешно загружен",
@@ -95,5 +94,8 @@
     "{0} will not be loaded because the dependency are in loops": "Зависимости {0} находятся в циклах, не будут загружены",
     "{0} will not be loaded because the dependencies are not loaded": "Зависимости {0} не загружены, не будут загружены",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "Мод не использует унифицированного оператора распределения памяти, не будет загружен.",
-    "Extra Info:": "Дополнительная информация:"
+    "Extra Info:": "Дополнительная информация:",
+    "Crash the server": "сбой сервера",
+    "Crash the client": "Сбой клиента",
+    "Query client version information": "Запрос информации о версии клиента"
 }

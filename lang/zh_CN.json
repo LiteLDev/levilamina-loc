@@ -6,7 +6,6 @@
     "Mod {0} already loaded": "{0} 已加载",
     "Unrecognized mod type: {0}": "无法识别的模组类型：{0}",
     "Mod {0} not found": "找不到模组 {0}",
-    "crash the server": "崩溃服务器",
     "Query memory stats": "查询内存统计",
     "LeviLamina's main command": "LeviLamina的主要命令",
     "Load mod {0} successfully": "{0} 加载成功",
@@ -95,5 +94,8 @@
     "{0} will not be loaded because the dependency are in loops": "{0} 将不会被加载因为依赖项存在循环依赖",
     "{0} will not be loaded because the dependencies are not loaded": "{0} 将不会被加载因为依赖项未加载",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} 将不会被加载因为没有使用统一的内存分配操作符。",
-    "Extra Info:": "额外信息："
+    "Extra Info:": "额外信息：",
+    "Crash the server": "使服务器崩溃",
+    "Crash the client": "崩溃客户端",
+    "Query client version information": "查询客户端版本信息"
 }

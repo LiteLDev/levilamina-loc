@@ -6,7 +6,6 @@
     "Mod {0} already loaded": "Mod {0} already loaded",
     "Unrecognized mod type: {0}": "Unrecognized mod type: {0}",
     "Mod {0} not found": "Mod {0} not found",
-    "crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
     "Query memory stats": "ดึงข้อมูลสถิติของหน่วยความจำ",
     "LeviLamina's main command": "คำสั่งหลักของ LeviLamina",
     "Load mod {0} successfully": "โหลดปลั๊กอิน {0} สำเร็จแล้ว",
@@ -95,5 +94,8 @@
     "{0} will not be loaded because the dependency are in loops": "Dependencies ของ {0} อยู่ในวนลูป จะไม่สามารถโหลดได้",
     "{0} will not be loaded because the dependencies are not loaded": "Dependencies ของ {0} ไม่ได้โหลด จะไม่สามารถโหลดได้",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} will not be loaded because it isn't using the unified memory allocation operator",
-    "Extra Info:": "Extra Info:"
+    "Extra Info:": "Extra Info:",
+    "Crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
+    "Crash the client": "Crash the client",
+    "Query client version information": "Query client version information"
 }

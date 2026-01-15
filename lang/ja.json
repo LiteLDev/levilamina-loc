@@ -6,7 +6,6 @@
     "Mod {0} already loaded": "Mod {0} は既に読み込まれています",
     "Unrecognized mod type: {0}": "認識できないModの種類: {0}",
     "Mod {0} not found": "Mod {0} が見つかりません",
-    "crash the server": "サーバーをクラッシュさせる",
     "Query memory stats": "メモリ統計をクエリする",
     "LeviLamina's main command": "LeviLaminaのメインコマンド",
     "Load mod {0} successfully": "MOD {0} の読み込みに成功しました",
@@ -95,5 +94,8 @@
     "{0} will not be loaded because the dependency are in loops": "{0}の依存関係にループがあるため、ロードされません",
     "{0} will not be loaded because the dependencies are not loaded": "{0}の依存関係がロードされていないため、ロードされません",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "統合メモリ割り当て演算子を使用していないため、読み込まれません。",
-    "Extra Info:": "追加情報:"
+    "Extra Info:": "追加情報:",
+    "Crash the server": "サーバーをクラッシュさせる",
+    "Crash the client": "クライアントをクラッシュさせる",
+    "Query client version information": "クライアントのバージョン情報をクエリする"
 }

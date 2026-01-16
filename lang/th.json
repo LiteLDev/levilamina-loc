@@ -31,7 +31,6 @@
     "fail to convert position between dimensions": "ไม่สามารถแปลงตำแหน่งระหว่าง dimensions ได้",
     "Teleported {0} to {1} {2}": "เทเลพอร์ต {0} ไปยัง {1} {2}",
     "No target": "ไม่พบเป้าหมาย",
-    "Query serverversion information": "ดึงข้อมูลเวอร์ชั่นของเซิร์ฟเวอร์",
     "This server is running game version {0} with §bLeviLamina-{1}§r.": "This server is running game version {0} with §bLeviLamina-{1}§r.",
     "LeviConfig load failed": "ไม่สามารถโหลด LeviConfig ได้",
     "LeviConfig rewrite successfully": "เขียนทับ LeviConfig เรียบร้อยแล้ว",
@@ -97,5 +96,6 @@
     "Extra Info:": "Extra Info:",
     "Crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
     "Crash the client": "Crash the client",
-    "Query client version information": "Query client version information"
+    "Query client version information": "Query client version information",
+    "Query server version information": "ดึงข้อมูลเวอร์ชั่นของเซิร์ฟเวอร์"
 }

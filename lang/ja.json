@@ -31,7 +31,6 @@
     "fail to convert position between dimensions": "寸法間の位置を変換できません",
     "Teleported {0} to {1} {2}": "{0}を{1} {2}にテレポートしました",
     "No target": "ターゲットがありません",
-    "Query serverversion information": "サーバーバージョン情報を問い合わせる",
     "This server is running game version {0} with §bLeviLamina-{1}§r.": "このサーバーは§bLeviLamina- {0} §rでゲームバージョン{1}を実行しています。",
     "LeviConfig load failed": "LeviConfigの読み込みに失敗しました",
     "LeviConfig rewrite successfully": "LeviConfigの書き換えに成功しました",
@@ -97,5 +96,6 @@
     "Extra Info:": "追加情報:",
     "Crash the server": "サーバーをクラッシュさせる",
     "Crash the client": "クライアントをクラッシュさせる",
-    "Query client version information": "クライアントのバージョン情報をクエリする"
+    "Query client version information": "クライアントのバージョン情報をクエリする",
+    "Query server version information": "サーバーバージョン情報を問い合わせる"
 }

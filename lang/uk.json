@@ -31,7 +31,6 @@
     "fail to convert position between dimensions": "не вдалося перетворити позицію між розмірами",
     "Teleported {0} to {1} {2}": "Teleported {0} to {1} {2}",
     "No target": "No target",
-    "Query serverversion information": "Інформація про сервер запиту",
     "This server is running game version {0} with §bLeviLamina-{1}§r.": "Цей сервер використовує версію {0} з §bLeviLamina-{1}§r.",
     "LeviConfig load failed": "Помилка завантаження LeviConfig",
     "LeviConfig rewrite successfully": "Перезапис LeviConfig успішно",
@@ -97,5 +96,6 @@
     "Extra Info:": "Додаткова інформація:",
     "Crash the server": "зупинити сервер",
     "Crash the client": "Відхилити клієнта",
-    "Query client version information": "Інформація про версію клієнта для запиту"
+    "Query client version information": "Інформація про версію клієнта для запиту",
+    "Query server version information": "Інформація про сервер запиту"
 }

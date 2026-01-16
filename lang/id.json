@@ -31,7 +31,6 @@
     "fail to convert position between dimensions": "gagal mengonversi posisi antar dimensi",
     "Teleported {0} to {1} {2}": "Menteleportasi {0} ke {1} {2}",
     "No target": "Tidak ada target",
-    "Query serverversion information": "Query informasi versi server",
     "This server is running game version {0} with §bLeviLamina-{1}§r.": "This server is running game version {0} with §bLeviLamina-{1}§r.",
     "LeviConfig load failed": "Gagal memuat LeviConfig",
     "LeviConfig rewrite successfully": "Menulis ulang LeviConfig berhasil",
@@ -97,5 +96,6 @@
     "Extra Info:": "Extra Info:",
     "Crash the server": "server crash",
     "Crash the client": "Crash the client",
-    "Query client version information": "Query client version information"
+    "Query client version information": "Query client version information",
+    "Query server version information": "Query informasi versi server"
 }

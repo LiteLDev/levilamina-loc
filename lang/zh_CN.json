@@ -26,12 +26,11 @@
     "Type: {0}": "类型: {0}",
     "Version: {0}": "版本: {0}",
     "Entry: {0}": "入口: {0}",
-    "There are {0} mods: {1}": "服务器有 {0} 个模组： {1}",
+    "There are {0} mods: {1}": "当前有 {0} 个模组： {1}",
     "Not an actor origin": "命令发起源非实体",
     "fail to convert position between dimensions": "维度坐标转换失败",
     "Teleported {0} to {1} {2}": "已将 {0} 传送至 {1} {2}",
     "No target": "无目标",
-    "Query serverversion information": "查询服务器版本信息",
     "This server is running game version {0} with §bLeviLamina-{1}§r.": "此服务器正在运行的游戏版本为 {0} 并带有 §bLeviLamina-{1}§r",
     "LeviConfig load failed": "LeviConfig 加载失败",
     "LeviConfig rewrite successfully": "LeviConfig 重写成功",
@@ -97,5 +96,6 @@
     "Extra Info:": "额外信息：",
     "Crash the server": "使服务器崩溃",
     "Crash the client": "使客户端崩溃",
-    "Query client version information": "查询客户端版本信息"
+    "Query client version information": "查询客户端版本信息",
+    "Query server version information": "查询服务器版本信息"
 }

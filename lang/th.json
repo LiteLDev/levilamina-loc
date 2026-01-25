@@ -46,7 +46,7 @@
     "Help us translate & improve text -> {0}": "ช่วยเราในการแปลภาษา & ปรับปรุงข้อความ -> {0}",
     "Protocol version not match, target version: {0}, current version: {1}": "เวอร์ชั่นโปรโตคอลไม่ตรงกัน เวอร์ชั่นที่ต้องการ: {0}, ขณะนี้ใช้เวอร์ชั่น: {1}",
     "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "สิ่งนี้น่าจะทำให้เซิร์ฟเวอร์ล่มได้, กรุณาใช้ LeviLamina ให้ตรงกับเวอร์ชั่นของ BDS!",
-    "LeviLamina is running in DEBUG mode!": "LeviLamina is running in DEBUG mode!",
+    "LeviLamina is running in DEBUG mode!": "ตอนนี้ LeviLamina ได้ทำงานอยู่ในโหมด DEBUG!",
     "Manifest is not a valid JSON text": "ไฟล์ Manifest ไม่ใช่ข้อความ JSON ที่ถูกต้อง",
     "Mod name {0} do not match folder {1}": "Mod name {0} do not match folder {1}",
     "Loading mods...": "Loading mods...",
@@ -97,5 +97,7 @@
     "Crash the server": "ทำให้เซิร์ฟเวอร์ล่ม",
     "Crash the client": "Crash the client",
     "Query client version information": "Query client version information",
-    "Query server version information": "ดึงข้อมูลเวอร์ชั่นของเซิร์ฟเวอร์"
+    "Query server version information": "ดึงข้อมูลเวอร์ชั่นของเซิร์ฟเวอร์",
+    "{0} is not compatible with client platform": "{0} is not compatible with client platform",
+    "{0} is not compatible with server platform": "{0} is not compatible with server platform"
 }

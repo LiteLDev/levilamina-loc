@@ -97,5 +97,7 @@
     "Crash the server": "planter le serveur",
     "Crash the client": "Crash le client",
     "Query client version information": "Informations sur la version du client de la requête",
-    "Query server version information": "Informations sur la version du serveur de requête"
+    "Query server version information": "Informations sur la version du serveur de requête",
+    "{0} is not compatible with client platform": "{0} n'est pas compatible avec la plateforme client",
+    "{0} is not compatible with server platform": "{0} n'est pas compatible avec la plateforme du serveur"
 }

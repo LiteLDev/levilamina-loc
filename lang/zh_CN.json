@@ -97,5 +97,7 @@
     "Crash the server": "使服务器崩溃",
     "Crash the client": "使客户端崩溃",
     "Query client version information": "查询客户端版本信息",
-    "Query server version information": "查询服务器版本信息"
+    "Query server version information": "查询服务器版本信息",
+    "{0} is not compatible with client platform": "模组 {0} 与客户端不兼容",
+    "{0} is not compatible with server platform": "模组 {0} 与服务端不兼容"
 }

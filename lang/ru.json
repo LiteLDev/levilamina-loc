@@ -97,5 +97,7 @@
     "Crash the server": "сбой сервера",
     "Crash the client": "Сбой клиента",
     "Query client version information": "Запрос информации о версии клиента",
-    "Query server version information": "Запрос информации о версии сервера"
+    "Query server version information": "Запрос информации о версии сервера",
+    "{0} is not compatible with client platform": "{0} не совместим с клиентской платформой",
+    "{0} is not compatible with server platform": "{0} не совместим с серверной платформой"
 }

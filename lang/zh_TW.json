@@ -97,5 +97,7 @@
     "Crash the server": "使伺服器崩潰",
     "Crash the client": "使客戶端崩溃",
     "Query client version information": "查詢客戶端版本信息",
-    "Query server version information": "查詢服務器版本信息"
+    "Query server version information": "查詢服務器版本信息",
+    "{0} is not compatible with client platform": "{0} is not compatible with client platform",
+    "{0} is not compatible with server platform": "{0} is not compatible with server platform"
 }

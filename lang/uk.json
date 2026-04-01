@@ -59,7 +59,7 @@
     "{0} mod(s) loaded": "{0} модів завантажених",
     "Enabling mods...": "Увімкнення режимі...",
     "Enabling {0} v{1}": "Увімкнення {0} v{1}",
-    "{0} mod(s) enabled in ({1:.1f}s)": "{0} mod(s) enabled ({1:.1f}s)",
+    "{0} mod(s) enabled in ({1:.1f}s)": "{0} mod(s) enabled in ({1:.1f}s)",
     "Disabling mods...": "Вимкнення режимі...",
     "Disabling {0} v{1}": "Вимкнення {0} v{1}",
     "Mod does not exist, or the manifest is empty": "Мод не існує, інакше маніфест пустий",
@@ -94,10 +94,10 @@
     "{0} will not be loaded because the dependencies are not loaded": "{0} не буде завантажено, оскільки залежності не будуть завантажені",
     "{0} will not be loaded because it isn't using the unified memory allocation operator": "{0} не буде завантажено, оскільки він не використовує оператора виділеного місця",
     "Extra Info:": "Додаткова інформація:",
-    "Crash the server": "зупинити сервер",
+    "Crash the server": "Аваріювати сервер",
     "Crash the client": "Відхилити клієнта",
     "Query client version information": "Інформація про версію клієнта для запиту",
-    "Query server version information": "Інформація про сервер запиту",
+    "Query server version information": "Інформація про версію сервера запиту",
     "{0} is not compatible with client platform": "{0} несумісний з клієнтською платформою",
     "{0} is not compatible with server platform": "{0} is not compatible with server platform"
 }

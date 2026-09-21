@@ -99,5 +99,17 @@
     "Query client version information": "查询客户端版本信息",
     "Query server version information": "查询服务器版本信息",
     "{0} is not compatible with client platform": "模组 {0} 与客户端不兼容",
-    "{0} is not compatible with server platform": "模组 {0} 与服务端不兼容"
+    "{0} is not compatible with server platform": "模组 {0} 与服务端不兼容",
+    "Configured {} STUN server(s) for NetherNet": {
+        "": "为NetherNet配置了 {} 个STUN服务器。"
+    },
+    "Ignoring STUN server '{}': the URI must not contain '@' or '?'": {
+        "": "已忽略 STUN 服务器 '{}': URI 不能包含 '@' 或 '?'。"
+    },
+    "Ignoring STUN server '{}': only stun: and stuns: URIs are supported": {
+        "": "已忽略 STUN 服务器 '{}': 只支持以 stun: 和 stun: 开头的URI。"
+    },
+    "Configured {}:{} as the mapped address for NetherNet": {
+        "": "已将 {}:{} 配置为NetherNet的映射地址。"
+    }
 }

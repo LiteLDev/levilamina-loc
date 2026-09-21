@@ -30,7 +30,7 @@
     "Not an actor origin": "Не является источником актора",
     "fail to convert position between dimensions": "Не удалось преобразовать позицию между измерениями",
     "Teleported {0} to {1} {2}": "{0} телепортирован в {1} {2}",
-    "No target": "Нет цели",
+    "No target": "Цель отсутствует",
     "This server is running game version {0} with §bLeviLamina-{1}§r.": "На этом сервере запущена игра версии {0} с §bLeviLamina-{1}§r.",
     "LeviConfig load failed": "Не удалось загрузить LeviConfig",
     "LeviConfig rewrite successfully": "LeviConfig успешно перезаписан",

@@ -27,7 +27,7 @@
     "Version: {0}": "เวอร์ชัน: {0}",
     "Entry: {0}": "จุดเริ่มต้น: {0}",
     "There are {0} mods: {1}": "มีม็อดทั้งหมด {0} รายการ: {1}",
-    "Not an actor origin": "ไม่ใช่จุดกำเนิดของ actor",
+    "Not an actor origin": "ไม่ใช่ actor origin",
     "fail to convert position between dimensions": "ไม่สามารถแปลงตำแหน่งระหว่างมิติได้",
     "Teleported {0} to {1} {2}": "เทเลพอร์ต {0} ไปยัง {1} {2} แล้ว",
     "No target": "ไม่มีเป้าหมาย",

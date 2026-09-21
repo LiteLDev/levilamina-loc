@@ -48,7 +48,7 @@
     "This will most likely crash the server, please use the LeviLamina that matches the BDS version!": "Questo molto probabilmente farà crashare il server, usa la versione di LeviLamina corrispondente a quella del BDS!",
     "LeviLamina is running in DEBUG mode!": "LeviLamina è in esecuzione in modalità DEBUG!",
     "Manifest is not a valid JSON text": "Il Manifest non è un testo JSON valido",
-    "Mod name {0} do not match folder {1}": "Il nome della mod {0} non corrisponde alla cartella {1}",
+    "Mod name {0} do not match folder {1}": "Il nome della Mcd",
     "Loading mods...": "Caricamento delle mod...",
     "Failed to create native mod manager": "Impossibile creare il gestore di mod nativo",
     "Failed to load manifest for {0}": "Impossibile caricare il Manifest di {0}",

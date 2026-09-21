@@ -39,7 +39,7 @@
     "Debugger detected, CrashLogger will not be enabled": "Debugger terdeteksi, CrashLogger tidak akan diaktifkan",
     "Couldn't Create CrashLogger Daemon Process": "Tidak dapat membuat proses daemon CrashLogger",
     "CrashLogger enabled successfully": "CrashLogger berhasil diaktifkan",
-    "Detected the existence of another BDS process with the same path!": "Terdeteksi adanya proses BDS lain dengan jalur yang sama!",
+    "Detected the existence of another BDS process with the same path!": "Terdeteksi keberadaan proses BDS lain dengan jalur yang sama!",
     "This may cause the network port and the level to be occupied": "Hal ini dapat menyebabkan port jaringan dan level terpakai oleh proses lain",
     "Do you want to terminate the process with PID {0}?  (y=Yes, n=No, e=Exit)": "Apakah Anda ingin mengakhiri proses dengan PID {0}?  (y=Ya, n=Tidak, e=Keluar)",
     "LeviLamina is a free software licensed under {0}": "LeviLamina adalah perangkat lunak bebas yang dilisensikan di bawah {0}",

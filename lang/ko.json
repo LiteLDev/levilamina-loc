@@ -99,5 +99,17 @@
     "Query client version information": "클라이언트 버전 정보 조회",
     "Query server version information": "서버 버전 정보 조회",
     "{0} is not compatible with client platform": "{0}은(는) 클라이언트 플랫폼과 호환되지 않습니다",
-    "{0} is not compatible with server platform": "{0}은(는) 서버 플랫폼과 호환되지 않습니다"
+    "{0} is not compatible with server platform": "{0}은(는) 서버 플랫폼과 호환되지 않습니다",
+    "Configured {} STUN server(s) for NetherNet": {
+        "": "Configured {} STUN server(s) for NetherNet."
+    },
+    "Ignoring STUN server '{}': the URI must not contain '@' or '?'": {
+        "": "Ignoring STUN server '{}': the URI must not contain '@' or '?'."
+    },
+    "Ignoring STUN server '{}': only stun: and stuns: URIs are supported": {
+        "": "Ignoring STUN server '{}': only stun: and stuns: URIs are supported."
+    },
+    "Configured {}:{} as the mapped address for NetherNet": {
+        "": "Configured {}:{} as the mapped address for NetherNet."
+    }
 }

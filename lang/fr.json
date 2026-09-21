@@ -99,5 +99,17 @@
     "Query client version information": "Informations sur la version du client de la requête",
     "Query server version information": "Informations sur la version du serveur de requête",
     "{0} is not compatible with client platform": "{0} n'est pas compatible avec la plateforme client",
-    "{0} is not compatible with server platform": "{0} n'est pas compatible avec la plateforme du serveur"
+    "{0} is not compatible with server platform": "{0} n'est pas compatible avec la plateforme du serveur",
+    "Configured {} STUN server(s) for NetherNet": {
+        "": "{} serveur(s) STUN configuré(s) pour NetherNet."
+    },
+    "Ignoring STUN server '{}': the URI must not contain '@' or '?'": {
+        "": "Le serveur STUN '{}': l'URI ne doit pas contenir '@' ou '?'."
+    },
+    "Ignoring STUN server '{}': only stun: and stuns: URIs are supported": {
+        "": "Ignorant le serveur STUN '{}': seul stun : et stun : les URIs sont pris en charge."
+    },
+    "Configured {}:{} as the mapped address for NetherNet": {
+        "": "{}:{} configuré comme l'adresse mappée pour NetherNet."
+    }
 }

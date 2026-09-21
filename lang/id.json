@@ -99,5 +99,17 @@
     "Query client version information": "Query informasi versi klien",
     "Query server version information": "Query informasi versi server",
     "{0} is not compatible with client platform": "{0} tidak kompatibel dengan platform klien",
-    "{0} is not compatible with server platform": "{0} tidak kompatibel dengan platform server"
+    "{0} is not compatible with server platform": "{0} tidak kompatibel dengan platform server",
+    "Configured {} STUN server(s) for NetherNet": {
+        "": "Configured {} STUN server(s) for NetherNet."
+    },
+    "Ignoring STUN server '{}': the URI must not contain '@' or '?'": {
+        "": "Ignoring STUN server '{}': the URI must not contain '@' or '?'."
+    },
+    "Ignoring STUN server '{}': only stun: and stuns: URIs are supported": {
+        "": "Ignoring STUN server '{}': only stun: and stuns: URIs are supported."
+    },
+    "Configured {}:{} as the mapped address for NetherNet": {
+        "": "Configured {}:{} as the mapped address for NetherNet."
+    }
 }

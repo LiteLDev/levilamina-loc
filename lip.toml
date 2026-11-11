@@ -1,0 +1,28 @@
+format = 4
+id = "github.com/LiteLDev/levilamina-loc"
+version = "1.7.0"
+
+[info]
+name = "levilamina-loc"
+description = "Language packs of LeviLamina"
+tags = ["levilamina"]
+
+# The language packs are plain data used by LeviLamina on both sides: LeviLamina depends on
+# this package from its server variant and from its client variant, so the default variant has
+# an entry for each side with the same files.
+
+[[variants.""]]
+side = "server"
+platform = "win-x64"
+
+[[variants."".assets]]
+type = "self"
+place = [{ src = "lang/", dest = "mods/LeviLamina/lang/" }]
+
+[[variants.""]]
+side = "client"
+platform = "win-x64"
+
+[[variants."".assets]]
+type = "self"
+place = [{ src = "lang/", dest = "mods/LeviLamina/lang/" }]
